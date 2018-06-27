@@ -1,0 +1,1884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LugarExpedicion="01020" MetodoPago="PUE" TipoDeComprobante="I" Total="4664357.90" TipoCambio="1" Moneda="MXN" SubTotal="3918060.60" Certificado="MIIGnTCCBIWgAwIBAgIUMDAwMDEwMDAwMDA0MDI2NDY3MjIwDQYJKoZIhvcNAQELBQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3RyYWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRyaWJ1eWVudGUwHhcNMTYwNTMwMTgzMDM1WhcNMjAwNTMwMTgzMDM1WjCCATwxPDA6BgNVBAMTM09QRVJBRE9SQSBDRU5UUkFMIERFIEVTVEFDSU9OQU1JRU5UT1MgUyBBIFAgSSBERSBDVjE8MDoGA1UEKRMzT1BFUkFET1JBIENFTlRSQUwgREUgRVNUQUNJT05BTUlFTlRPUyBTIEEgUCBJIERFIENWMTwwOgYDVQQKEzNPUEVSQURPUkEgQ0VOVFJBTCBERSBFU1RBQ0lPTkFNSUVOVE9TIFMgQSBQIEkgREUgQ1YxJTAjBgNVBC0THE9DRTk0MTIwNzNMMyAvIEJBRkk3NzA1MjhOQTMxHjAcBgNVBAUTFSAvIEJBRkk3NzA1MjhIREZSTEcwNzE5MDcGA1UECxMwT1BFUkFET1JBIENFTlRSQUwgREUgRVNUQUNJT05BTUlFTlRPUyBTQVBJIERFIENWMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgm6QlOgoUBHQtPQWLFJ83vSPMIbTpORCz5NJFUckQApRUzAPVXgwkjL0FW4pnU3vJ1u70zuNKLIQqpczhcGKYOXRm2b5se91VmFipk84+j6ykUhNGFGMfW03rpH2v9O7AwlQq7giEymTXhTQl9CyOD3IIfaxJ4mXeEjaFn+eMk1Uh10oT991VHeMS0vOewS+DW4f6rMyAHdJof0eHNVtx7Ji0ygThTOwFrd/PJfIog8NVrpySW+EWiRg1riI9DW8kZS0J6oSG42f0swvIjbYz9KfGZ++LyaNUiSCvjEIsjbcDqbHJBN6AQ9tUVLSqna7gaEWOS3DtDAe9nxygNAgDwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAJ0dWXkmAs/AXrB3MbxiwlN8ck+WBKaB4E1tpoOJtYJMiseLsvd0bQKMke9fQL/wj/1xra8XEY4N/Tk+Y53lvrEUEaRN3QlQso33MRdGsX+hufYcKbGmmPjOk+CAKkux9PMDCi8oyLpX6Vm4fbuWeqdp8ddoGOeY6379mcNscw6iOToPskCE1zPndqVq+yHHp/jgU+LZUvbM4dXW/Nh/mYh01u3hbmIxBi9mdrrv/mtmAxEJzmtU0GAsu8IpGzCQASGQeoQufkOomReCcrV/LWbHKKxLoiC2B0N4mAQgho2iX9XjSS/vL11+4qbGTrMMfeqMLwhnc4I/pkc4/P+jeVk++sMTPxgYOfgsE52gf2fdftwwbnSPYo/plQeXgyjk/ksHTACsTJ/WW6KKyJqzBqLIfu7abhW0xmFiNzm8CMwtMG7+Gp7zngroo3zvOG4H2/cro68jnKYmK7j+WmGHSilj1h5OF0A9wan8hy8JJB3aEFRS5LnJ1I5T/Km8Jzr6RiXdW8/sxFYhF+CqDdLSDTrJodYwYkZ9h/cwjSV5eXtmqWg/WuRennhkVgN6+MdLFRNOHHeKE5Fv4vKt3/x7qKLJxhfuwWpmaUu2H4c6VusF2nnwM5wD/Y7hOd2mve0CSQ9FQW9nB23Q1B88J/1KR5Ij2+wRdSqVshxauSm8ksXY=" NoCertificado="00001000000402646722" FormaPago="01" Sello="LDKFt6DuxY8QyToaTPVr7NQQclDPNnkFoqa5Sr6ywkasfR+JvL6lwA2pKyscpWDgIFwv/B6AdKl87vyRlWAFw8C05AjFTlcaGsP9ort5ac/pczIBEzpdHuj1jrjD5qgoyIs4YE0XJHLKxOH+8lEoRb1qWYuuatnKST/ieih7aZ7XDZX4LC4qmLio4xzVPZPdsFbiS5gBsz0qm+OerPMcDPDlzpaBNxa2P3LX/V6QIfWoSj1EX1RA8yXVPsFqBR8BE8E8kxDujsPUpuX3kufN+k7s1QNpiAMRSO5Aeen3UL/WKCkbjRGrZIfO/aeEfgJI6fneCwp9jg0kcA2O2XYaLA==" Fecha="2018-05-29T10:42:07" Folio="435" Serie="FG" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+  <cfdi:Emisor RegimenFiscal="601" Nombre="OPERADORA CENTRAL DE ESTACIONAMIENTOS SAPI DE CV" Rfc="OCE9412073L3" />
+  <cfdi:Receptor UsoCFDI="G03" Nombre="PUBLICO EN GENERAL" Rfc="XAXX010101000" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Importe="27926.64" ValorUnitario="27926.64" Descripcion="VENTA TARIFA HORARIA  Centro Insurgentes" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0002" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5319.36" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="33246.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="7282.86" ValorUnitario="7282.86" Descripcion="VENTA TARIFA HORARIA  Santa Fe II" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0007" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1387.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="8670.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="11083.80" ValorUnitario="11083.80" Descripcion="VENTA TARIFA HORARIA  Universidad Iberoamericana" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0012" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2111.20" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="13195.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="9628.12" ValorUnitario="9628.12" Descripcion="VENTA TARIFA HORARIA  Plaza Cuauhtemoc" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0021" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1833.93" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="11462.05" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="43934.56" ValorUnitario="43934.56" Descripcion="VENTA TARIFA HORARIA  Hospital ABC Observatorio" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0026" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8368.49" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="52303.05" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="10822.62" ValorUnitario="10822.62" Descripcion="VENTA TARIFA HORARIA  Centro Armand" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0027" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2061.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="12884.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="21.67" ValorUnitario="21.67" Descripcion="VENTA TARIFA HORARIA  Sport City Loreto" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0033" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4.13" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="25.80" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2341.16" ValorUnitario="2341.16" Descripcion="VENTA TARIFA HORARIA  Lopez 8" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0042" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="445.93" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2787.09" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1050.00" ValorUnitario="1050.00" Descripcion="VENTA TARIFA HORARIA  Torre Candela" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0047" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="200.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1250.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="115338.80" ValorUnitario="115338.80" Descripcion="VENTA TARIFA HORARIA  Plaza Satelite" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0060" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="21969.30" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="137308.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1055.72" ValorUnitario="1055.72" Descripcion="VENTA TARIFA HORARIA  Hospital Santa Coleta" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0066" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="201.09" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1256.81" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="18341.50" ValorUnitario="18341.50" Descripcion="VENTA TARIFA HORARIA  Universidad Panamericana" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0076" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3493.62" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="21835.12" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="15010.08" ValorUnitario="15010.08" Descripcion="VENTA TARIFA HORARIA  Pasaje Santa Fe" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0077" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2859.06" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17869.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="94620.25" ValorUnitario="94620.25" Descripcion="VENTA TARIFA HORARIA  Plaza Universidad" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0086" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="18022.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="112643.15" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="8973.72" ValorUnitario="8973.72" Descripcion="VENTA TARIFA HORARIA  Parque Alameda" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0093" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1709.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="10683.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2793.00" ValorUnitario="2793.00" Descripcion="VENTA TARIFA HORARIA  Sport City Monterrey" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0101" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="532.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3325.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1401.29" ValorUnitario="1401.29" Descripcion="VENTA TARIFA HORARIA  Sport City Galerias Monterrey" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0109" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="266.91" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1668.20" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1742.34" ValorUnitario="1742.34" Descripcion="VENTA TARIFA HORARIA  Intergrafic" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0203" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="331.87" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2074.21" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="915.79" ValorUnitario="915.79" Descripcion="VENTA TARIFA HORARIA  Homero 440" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0216" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="174.44" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1090.23" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3989.16" ValorUnitario="3989.16" Descripcion="VENTA TARIFA HORARIA  Plaza Magna" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0222" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="759.84" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4749.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="41513.01" ValorUnitario="41513.01" Descripcion="VENTA TARIFA HORARIA  Torre Lindavista" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0236" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7907.24" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="49420.25" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3450.11" ValorUnitario="3450.11" Descripcion="VENTA TARIFA HORARIA  Plaza Arquimedes" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0238" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="657.16" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4107.27" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1375.32" ValorUnitario="1375.32" Descripcion="VENTA TARIFA HORARIA  Sur 132" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0239" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="261.96" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1637.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="8200.92" ValorUnitario="8200.92" Descripcion="VENTA TARIFA HORARIA  Pericentro" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0240" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1562.08" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="9763.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="43804.58" ValorUnitario="43804.58" Descripcion="VENTA TARIFA HORARIA  Interlomas" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0244" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8343.73" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="52148.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="88626.38" ValorUnitario="88626.38" Descripcion="VENTA TARIFA HORARIA  Hospital ABC Santa Fe" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0250" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="16881.22" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="105507.60" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="148243.20" ValorUnitario="148243.20" Descripcion="VENTA TARIFA HORARIA  Parque Delta" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0273" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="28236.80" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="176480.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="165244.80" ValorUnitario="165244.80" Descripcion="VENTA TARIFA HORARIA  Parque Lindavista" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0278" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="31475.20" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="196720.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="89367.60" ValorUnitario="89367.60" Descripcion="VENTA TARIFA HORARIA  Reforma 222" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0288" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="17022.40" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="106390.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="7686.36" ValorUnitario="7686.36" Descripcion="VENTA TARIFA HORARIA  Terreno Santa Fe OHL" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0297" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1464.07" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="9150.43" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="5693.88" ValorUnitario="5693.88" Descripcion="VENTA TARIFA HORARIA  Amazonas" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0299" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1084.55" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="6778.43" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="7319.76" ValorUnitario="7319.76" Descripcion="VENTA TARIFA HORARIA  La Gran Plaza Leon" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0309" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1394.24" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="8714.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="20240.58" ValorUnitario="20240.58" Descripcion="VENTA TARIFA HORARIA  Walmart Combo Vallarta" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0323" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3855.35" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="24095.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="7084.39" ValorUnitario="7084.39" Descripcion="VENTA TARIFA HORARIA  Sam`s Mariano Otero" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0324" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1349.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="8433.80" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="5111.37" ValorUnitario="5111.37" Descripcion="VENTA TARIFA HORARIA  Walmart Tlaquepaque" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0325" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="973.60" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="6084.97" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3082.80" ValorUnitario="3082.80" Descripcion="VENTA TARIFA HORARIA  Hospital Galenia" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0329" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="587.20" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3670.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17206.14" ValorUnitario="17206.14" Descripcion="VENTA TARIFA HORARIA  Centro de Cancer ABC" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0406" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3277.36" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="20483.50" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="37695.84" ValorUnitario="37695.84" Descripcion="VENTA TARIFA HORARIA  Luna Parc" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0412" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7180.16" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="44876.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="11740.54" ValorUnitario="11740.54" Descripcion="VENTA TARIFA HORARIA  Plaza Aeropuerto" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0417" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2236.29" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="13976.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="9784.32" ValorUnitario="9784.32" Descripcion="VENTA TARIFA HORARIA  Las Tiendas San Esteban" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0423" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1863.68" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="11648.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="470.87" ValorUnitario="470.87" Descripcion="VENTA TARIFA HORARIA  Corporativo Microsoft" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0424" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="89.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="560.56" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1618.32" ValorUnitario="1618.32" Descripcion="VENTA TARIFA HORARIA  Centro Universitario" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0426" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="308.25" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1926.57" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="8514.33" ValorUnitario="8514.33" Descripcion="VENTA TARIFA HORARIA  Plaza Azcapotzalco" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0439" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1621.78" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="10136.11" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="8145.18" ValorUnitario="8145.18" Descripcion="VENTA TARIFA HORARIA  Alco la Raza" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0451" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1551.46" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="9696.64" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4584.72" ValorUnitario="4584.72" Descripcion="VENTA TARIFA HORARIA  Superama Los Leones" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0455" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="873.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="5458.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="252.71" ValorUnitario="252.71" Descripcion="VENTA TARIFA HORARIA  Homex" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0458" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="48.14" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="300.85" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="289.80" ValorUnitario="289.80" Descripcion="VENTA TARIFA HORARIA  Plaza Sor Juana" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0460" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="55.20" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="345.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4523.97" ValorUnitario="4523.97" Descripcion="VENTA TARIFA HORARIA  Grand Altavista" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0462" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="861.71" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="5385.68" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="5111.97" ValorUnitario="5111.97" Descripcion="VENTA TARIFA HORARIA  Hotel Marriot" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0463" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="973.71" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="6085.68" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="302.98" ValorUnitario="302.98" Descripcion="VENTA TARIFA HORARIA  Alitas Insurgentes" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0464" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="57.71" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="360.69" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2100.62" ValorUnitario="2100.62" Descripcion="VENTA TARIFA HORARIA  Homero 1500" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0477" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="400.12" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2500.74" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2504.76" ValorUnitario="2504.76" Descripcion="VENTA TARIFA HORARIA  Dos Patios" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0478" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="477.10" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2981.86" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="731.43" ValorUnitario="731.43" Descripcion="VENTA TARIFA HORARIA  Alitas Pedregal" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0481" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="139.32" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="870.75" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1227.24" ValorUnitario="1227.24" Descripcion="VENTA TARIFA HORARIA  NH Aeropuerto T2" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0487" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="233.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1461.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="231.74" ValorUnitario="231.74" Descripcion="VENTA TARIFA HORARIA  Ventum" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0490" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="44.14" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="275.88" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2571.15" ValorUnitario="2571.15" Descripcion="VENTA TARIFA HORARIA  Chedraui Buen Tono" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0494" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="489.74" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3060.89" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3836.20" ValorUnitario="3836.20" Descripcion="VENTA TARIFA HORARIA  Chedraui Coapa" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0495" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="730.70" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4566.90" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3773.20" ValorUnitario="3773.20" Descripcion="VENTA TARIFA HORARIA  Chedraui Neza" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0496" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="718.71" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4491.91" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="291.48" ValorUnitario="291.48" Descripcion="VENTA TARIFA HORARIA  MCD Arboledas" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0500" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="55.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="347.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="805.54" ValorUnitario="805.54" Descripcion="VENTA TARIFA HORARIA  MCD Ermita" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0502" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="153.44" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="958.98" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="617.84" ValorUnitario="617.84" Descripcion="VENTA TARIFA HORARIA  MCD Paseo Tollocan" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0506" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="117.68" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="735.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="5094.54" ValorUnitario="5094.54" Descripcion="VENTA TARIFA HORARIA  El Salado" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0522" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="970.39" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="6064.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4255.44" ValorUnitario="4255.44" Descripcion="VENTA TARIFA HORARIA  Plaza Cuauhtemoc" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0021" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="810.56" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="5066.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="247.80" ValorUnitario="247.80" Descripcion="VENTA TARIFA HORARIA  Hospital ABC Observatorio" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0026" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="47.20" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="295.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2052.12" ValorUnitario="2052.12" Descripcion="VENTA TARIFA HORARIA  Centro Armand" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0027" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="390.88" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2443.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4158.00" ValorUnitario="4158.00" Descripcion="VENTA TARIFA HORARIA  Hospital Santa Coleta" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0066" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="792.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4950.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="30870.00" ValorUnitario="30870.00" Descripcion="VENTA TARIFA HORARIA  Universidad Panamericana" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0076" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5880.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="36750.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="13910.40" ValorUnitario="13910.40" Descripcion="VENTA TARIFA HORARIA  Plaza Universidad" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0086" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2649.60" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="16560.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="75.60" ValorUnitario="75.60" Descripcion="VENTA TARIFA HORARIA  Centro Insurgentes" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0002" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="14.40" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="90.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="6703.20" ValorUnitario="6703.20" Descripcion="VENTA TARIFA HORARIA  Parque Delta" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0273" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1276.80" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="7980.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="11760.00" ValorUnitario="11760.00" Descripcion="VENTA TARIFA HORARIA  Plaza Aeropuerto" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0417" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2240.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="14000.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="840.00" ValorUnitario="840.00" Descripcion="VENTA TARIFA HORARIA  Homex" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0458" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="160.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1000.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="504.00" ValorUnitario="504.00" Descripcion="VENTA TARIFA HORARIA  Hotel Marriot" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0463" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="96.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="600.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="630.00" ValorUnitario="630.00" Descripcion="VENTA TARIFA HORARIA  NH Aeropuerto T2" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0487" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="120.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="750.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3100.39" ValorUnitario="3100.39" Descripcion="VENTA TARIFA HORARIA  Terreno Gorostiza" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0334" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="590.55" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3690.94" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="16304.40" ValorUnitario="16304.40" Descripcion="VENTA TARIFA HORARIA  Combo Acoxpa" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0524" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3105.60" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="19410.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="22679.10" ValorUnitario="22679.10" Descripcion="VENTA TARIFA HORARIA  Combo Taxquena" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0525" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4319.83" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="26998.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="10661.26" ValorUnitario="10661.26" Descripcion="VENTA TARIFA HORARIA  Sams Cd. Jardin" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0527" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2030.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="12691.98" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3692.19" ValorUnitario="3692.19" Descripcion="VENTA TARIFA HORARIA  SC ACUEDUCTO" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0528" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="703.27" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4395.46" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="16804.24" ValorUnitario="16804.24" Descripcion="VENTA TARIFA HORARIA  SC FELIX CUEVAS" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0529" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3200.81" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="20005.05" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="16721.04" ValorUnitario="16721.04" Descripcion="VENTA TARIFA HORARIA  SC MIRAMONTES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0530" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3184.96" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="19906.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="10099.34" ValorUnitario="10099.34" Descripcion="VENTA TARIFA HORARIA  SC PERISUR" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0531" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1923.68" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="12023.02" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="21054.99" ValorUnitario="21054.99" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart Combo Metepec" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0535" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4010.47" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="25065.46" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="855.99" ValorUnitario="855.99" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart BA Mateo Atenco" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0537" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="163.04" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1019.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2279.37" ValorUnitario="2279.37" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart BA Santiago" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0538" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="434.17" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2713.54" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3087.84" ValorUnitario="3087.84" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart BA Iguala" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0541" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="588.16" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3676.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="235.28" ValorUnitario="235.28" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart BA La Polar" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0542" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="44.82" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="280.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="722.43" ValorUnitario="722.43" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart SAMS Acapulco" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0543" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="137.61" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="860.04" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1540.65" ValorUnitario="1540.65" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart SC Acapulco" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0544" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="293.46" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1834.11" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="637.59" ValorUnitario="637.59" Descripcion="VENTA TARIFA HORARIA  MCD Tepepan" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0546" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="121.44" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="759.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2349.47" ValorUnitario="2349.47" Descripcion="VENTA TARIFA HORARIA  BA Puebla 11 Sur" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0554" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="447.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2796.99" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1534.87" ValorUnitario="1534.87" Descripcion="VENTA TARIFA HORARIA  Gabriel Mancera" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0555" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="292.36" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1827.23" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2879.82" ValorUnitario="2879.82" Descripcion="VENTA TARIFA HORARIA  Proyecto Superama Tecnologico" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0556" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="548.54" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3428.36" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4038.91" ValorUnitario="4038.91" Descripcion="VENTA TARIFA HORARIA  Proyecto SAMS Poza Rica" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0558" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="769.32" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4808.23" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="6642.09" ValorUnitario="6642.09" Descripcion="VENTA TARIFA HORARIA  Proyecto SAMS Veracruz" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0559" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1265.16" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="7907.25" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="12135.77" ValorUnitario="12135.77" Descripcion="VENTA TARIFA HORARIA  Proyecto SC Veracruz" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0560" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2311.57" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="14447.34" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="382.43" ValorUnitario="382.43" Descripcion="VENTA TARIFA HORARIA  Proyecto Torre Vistral" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0561" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="72.84" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="455.27" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1188.62" ValorUnitario="1188.62" Descripcion="VENTA TARIFA HORARIA  Proyecto TEC Pabellon Monterrey" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0563" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="226.40" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1415.02" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="36529.96" ValorUnitario="36529.96" Descripcion="VENTA TARIFA HORARIA  Proyecto Gran Terraza Lomas" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0571" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6958.09" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="43488.05" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="6787.20" ValorUnitario="6787.20" Descripcion="VENTA TARIFA HORARIA  Proyecto Gran Terraza Lomas" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0571" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1292.80" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="8080.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1764.00" ValorUnitario="1764.00" Descripcion="VENTA TARIFA HORARIA  Proyecto Central de Abastos" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0570" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="336.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2100.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2436.31" ValorUnitario="2436.31" Descripcion="VENTA TARIFA HORARIA  Proyecto Central de Abastos" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0570" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="464.06" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2900.37" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="38342.64" ValorUnitario="38342.64" Descripcion="VENTA TARIFA HORARIA  Proyecto Arcos de Belem" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0591" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7303.36" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="45646.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1462.09" ValorUnitario="1462.09" Descripcion="VENTA TARIFA HORARIA  Proyecto Arcos de Belem" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0591" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="278.49" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1740.58" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="483.52" ValorUnitario="483.52" Descripcion="VENTA TARIFA HORARIA  Proyecto BA Coloso" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0594" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="92.10" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="575.62" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="54.28" ValorUnitario="54.28" Descripcion="VENTA TARIFA HORARIA  Proyecto BA Renacimiento" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0593" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="10.34" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="64.62" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="18503.52" ValorUnitario="18503.52" Descripcion="VENTA TARIFA HORARIA  Proyecto Parque Obrero" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0595" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3524.48" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="22028.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="25956.00" ValorUnitario="25956.00" Descripcion="VENTA TARIFA HORARIA  Proyecto Parque Obrero" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0595" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4944.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="30900.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="6206.53" ValorUnitario="6206.53" Descripcion="VENTA TARIFA HORARIA  Proyecto San Pablo" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0801" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1182.20" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="7388.73" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="18560.64" ValorUnitario="18560.64" Descripcion="VENTA TARIFA HORARIA  Proyecto Museo de Antropologia" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0577" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3535.36" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="22096.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3148.95" ValorUnitario="3148.95" Descripcion="VENTA TARIFA HORARIA  Proyecto BA Cantil" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0813" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="599.80" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3748.75" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="8768.09" ValorUnitario="8768.09" Descripcion="VENTA TARIFA HORARIA  Proyecto Soriana La Viga" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0814" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1670.11" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="10438.20" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="5769.54" ValorUnitario="5769.54" Descripcion="VENTA TARIFA HORARIA  WALMART 16 DE SEPTIEMBRE" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0818" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1098.96" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="6868.50" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="5844.09" ValorUnitario="5844.09" Descripcion="VENTA TARIFA HORARIA  Proyecto Soriana Aragon" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0816" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1113.16" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="6957.25" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="47538.12" ValorUnitario="47538.12" Descripcion="VENTA TARIFA HORARIA  Parque Via Vallejo" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0821" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="9054.88" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="56593.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="11623.08" ValorUnitario="11623.08" Descripcion="VENTA TARIFA HORARIA  Star Medica" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0836" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2213.92" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="13837.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17230.71" ValorUnitario="17230.71" Descripcion="VENTA TARIFA HORARIA  Coacalco Power Center" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0839" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3282.04" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="20512.75" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="24337.53" ValorUnitario="24337.53" Descripcion="VENTA TARIFA HORARIA  Tecamac Power Center" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0840" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4635.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="28973.25" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1461.60" ValorUnitario="1461.60" Descripcion="VENTA TARIFA HORARIA  Proyecto City Shops del Valle" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0843" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="278.40" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1740.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="26250.64" ValorUnitario="26250.64" Descripcion="VENTA TARIFA HORARIA  Proyecto City Shops del Valle" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0843" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5000.12" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="31250.76" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="15503.04" ValorUnitario="15503.04" Descripcion="VENTA TARIFA HORARIA  Proyecto City Shops Valle Dorado" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0844" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2952.96" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="18456.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2033.65" ValorUnitario="2033.65" Descripcion="VENTA TARIFA HORARIA  Proyecto Plazaragoza" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0845" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="387.36" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2421.01" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2880.36" ValorUnitario="2880.36" Descripcion="VENTA TARIFA HORARIA  SUPERAMA LA JOYA " Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0825" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="548.64" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3429.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="58.80" ValorUnitario="58.80" Descripcion="VENTA TARIFA HORARIA  TAE" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="9808" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="11.20" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="70.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="39989.04" ValorUnitario="39989.04" Descripcion="VENTA TARIFA HORARIA  Proyecto Nuevo Sur" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0547" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7616.96" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="47606.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="31276.56" ValorUnitario="31276.56" Descripcion="VENTA TARIFA HORARIA  Proyecto Museo de Antropologia" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0577" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5957.44" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="37234.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2943.99" ValorUnitario="2943.99" Descripcion="VENTA TARIFA HORARIA  Proyecto BA Cantil" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0813" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="560.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3504.75" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="8846.21" ValorUnitario="8846.21" Descripcion="VENTA TARIFA HORARIA  Proyecto Soriana La Viga" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0814" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1684.99" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="10531.20" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="6836.34" ValorUnitario="6836.34" Descripcion="VENTA TARIFA HORARIA  WALMART 16 DE SEPTIEMBRE" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0818" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1302.16" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="8138.50" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="9574.74" ValorUnitario="9574.74" Descripcion="VENTA TARIFA HORARIA  Proyecto Soriana Toriello" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0817" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1823.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="11398.50" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="6808.41" ValorUnitario="6808.41" Descripcion="VENTA TARIFA HORARIA  Proyecto Soriana Aragon" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0816" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1296.84" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="8105.25" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="77020.44" ValorUnitario="77020.44" Descripcion="VENTA TARIFA HORARIA  Parque Via Vallejo" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0821" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="14670.56" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="91691.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="184.80" ValorUnitario="184.80" Descripcion="VENTA TARIFA HORARIA  Coacalco Power Center" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0839" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="35.20" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="220.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="27300.63" ValorUnitario="27300.63" Descripcion="VENTA TARIFA HORARIA  Coacalco Power Center" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0839" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5200.12" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="32500.75" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="32071.41" ValorUnitario="32071.41" Descripcion="VENTA TARIFA HORARIA  Tecamac Power Center" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0840" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6108.84" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="38180.25" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1461.60" ValorUnitario="1461.60" Descripcion="VENTA TARIFA HORARIA  Proyecto City Shops del Valle" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0843" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="278.40" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1740.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="40111.48" ValorUnitario="40111.48" Descripcion="VENTA TARIFA HORARIA  Proyecto City Shops del Valle" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0843" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7640.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="47751.76" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="16269.12" ValorUnitario="16269.12" Descripcion="VENTA TARIFA HORARIA  Proyecto City Shops Valle Dorado" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0844" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3098.88" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="19368.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2709.01" ValorUnitario="2709.01" Descripcion="VENTA TARIFA HORARIA  Proyecto Plazaragoza" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0845" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="516.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3225.01" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2871.96" ValorUnitario="2871.96" Descripcion="VENTA TARIFA HORARIA  SUPERAMA LA JOYA " Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0825" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="547.04" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3419.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1068.92" ValorUnitario="1068.92" Descripcion="VENTA TARIFA HORARIA  MCD Paseo Tollocan" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0506" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="203.60" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1272.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4738.38" ValorUnitario="4738.38" Descripcion="VENTA TARIFA HORARIA  El Salado" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0522" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="902.55" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="5640.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="982.80" ValorUnitario="982.80" Descripcion="VENTA TARIFA HORARIA  Plaza Cuauhtemoc" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0021" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="187.20" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1170.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="235.20" ValorUnitario="235.20" Descripcion="VENTA TARIFA HORARIA  Hospital ABC Observatorio" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0026" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="44.80" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="280.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="237.72" ValorUnitario="237.72" Descripcion="VENTA TARIFA HORARIA  Centro Armand" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0027" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="45.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="283.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="18900.00" ValorUnitario="18900.00" Descripcion="VENTA TARIFA HORARIA  Universidad Panamericana" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0076" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3600.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="22500.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="462.00" ValorUnitario="462.00" Descripcion="VENTA TARIFA HORARIA  Plaza Universidad" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0086" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="88.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="550.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="235.20" ValorUnitario="235.20" Descripcion="VENTA TARIFA HORARIA  Centro Insurgentes" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0002" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="44.80" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="280.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="588.00" ValorUnitario="588.00" Descripcion="VENTA TARIFA HORARIA  Intergrafic" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0203" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="112.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="700.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="10199.28" ValorUnitario="10199.28" Descripcion="VENTA TARIFA HORARIA  Plaza Magna" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0222" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1942.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="12142.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="672.00" ValorUnitario="672.00" Descripcion="VENTA TARIFA HORARIA  Torre Lindavista" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0236" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="128.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="800.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="12174.12" ValorUnitario="12174.12" Descripcion="VENTA TARIFA HORARIA  Interlomas" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0244" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2318.88" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="14493.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3192.00" ValorUnitario="3192.00" Descripcion="VENTA TARIFA HORARIA  Alco la Raza" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0451" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="608.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3800.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="12180.00" ValorUnitario="12180.00" Descripcion="VENTA TARIFA HORARIA  Homex" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0458" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2320.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="14500.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2620.26" ValorUnitario="2620.26" Descripcion="VENTA TARIFA HORARIA  Homero 1500" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0477" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="499.10" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3119.36" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="924.00" ValorUnitario="924.00" Descripcion="VENTA TARIFA HORARIA  Chedraui Buen Tono" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0494" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="176.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1100.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="11088.00" ValorUnitario="11088.00" Descripcion="VENTA TARIFA HORARIA  Terreno Gorostiza" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0334" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2112.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="13200.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="5351.59" ValorUnitario="5351.59" Descripcion="VENTA TARIFA HORARIA  Terreno Gorostiza" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0334" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1019.35" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="6370.94" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="18136.44" ValorUnitario="18136.44" Descripcion="VENTA TARIFA HORARIA  Combo Acoxpa" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0524" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3454.56" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="21591.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="24793.38" ValorUnitario="24793.38" Descripcion="VENTA TARIFA HORARIA  Combo Taxquena" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0525" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4722.55" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="29515.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="11896.90" ValorUnitario="11896.90" Descripcion="VENTA TARIFA HORARIA  Sams Cd. Jardin" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0527" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2266.08" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="14162.98" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3638.43" ValorUnitario="3638.43" Descripcion="VENTA TARIFA HORARIA  SC ACUEDUCTO" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0528" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="693.03" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4331.46" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="16077.64" ValorUnitario="16077.64" Descripcion="VENTA TARIFA HORARIA  SC FELIX CUEVAS" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0529" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3062.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="19140.05" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17951.64" ValorUnitario="17951.64" Descripcion="VENTA TARIFA HORARIA  SC MIRAMONTES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0530" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3419.36" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="21371.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="12386.66" ValorUnitario="12386.66" Descripcion="VENTA TARIFA HORARIA  SC PERISUR" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0531" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2359.36" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="14746.02" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="24530.07" ValorUnitario="24530.07" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart Combo Metepec" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0535" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4672.39" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="29202.46" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1233.15" ValorUnitario="1233.15" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart BA Mateo Atenco" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0537" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="234.88" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1468.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2694.33" ValorUnitario="2694.33" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart BA Santiago" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0538" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="513.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3207.54" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3961.44" ValorUnitario="3961.44" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart BA Iguala" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0541" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="754.56" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4716.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="262.17" ValorUnitario="262.17" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart BA La Polar" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0542" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="49.94" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="312.11" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="777.03" ValorUnitario="777.03" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart SAMS Acapulco" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0543" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="148.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="925.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2113.53" ValorUnitario="2113.53" Descripcion="VENTA TARIFA HORARIA  Proyecto Walmart SC Acapulco" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0544" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="402.58" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2516.11" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1338.15" ValorUnitario="1338.15" Descripcion="VENTA TARIFA HORARIA  MCD Tepepan" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0546" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="254.88" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1593.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2342.75" ValorUnitario="2342.75" Descripcion="VENTA TARIFA HORARIA  BA Puebla 11 Sur" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0554" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="446.24" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2788.99" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1187.95" ValorUnitario="1187.95" Descripcion="VENTA TARIFA HORARIA  Gabriel Mancera" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0555" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="226.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1414.23" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3002.46" ValorUnitario="3002.46" Descripcion="VENTA TARIFA HORARIA  Proyecto Superama Tecnologico" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0556" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="571.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3574.36" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3933.07" ValorUnitario="3933.07" Descripcion="VENTA TARIFA HORARIA  Proyecto SAMS Poza Rica" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0558" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="749.16" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4682.23" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="6630.33" ValorUnitario="6630.33" Descripcion="VENTA TARIFA HORARIA  Proyecto SAMS Veracruz" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0559" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1262.92" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="7893.25" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="11568.77" ValorUnitario="11568.77" Descripcion="VENTA TARIFA HORARIA  Proyecto SC Veracruz" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0560" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2203.57" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="13772.34" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="290.03" ValorUnitario="290.03" Descripcion="VENTA TARIFA HORARIA  Proyecto Torre Vistral" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0561" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="55.24" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="345.27" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1329.74" ValorUnitario="1329.74" Descripcion="VENTA TARIFA HORARIA  Proyecto TEC Pabellon Monterrey" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0563" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="253.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1583.02" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="47436.52" ValorUnitario="47436.52" Descripcion="VENTA TARIFA HORARIA  Proyecto Gran Terraza Lomas" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0571" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="9035.53" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="56472.05" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1512.00" ValorUnitario="1512.00" Descripcion="VENTA TARIFA HORARIA  Proyecto Gran Terraza Lomas" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0571" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="288.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1800.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2280.91" ValorUnitario="2280.91" Descripcion="VENTA TARIFA HORARIA  Proyecto Central de Abastos" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0570" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="434.46" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2715.37" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1462.09" ValorUnitario="1462.09" Descripcion="VENTA TARIFA HORARIA  Proyecto Arcos de Belem" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0591" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="278.49" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1740.58" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="433.96" ValorUnitario="433.96" Descripcion="VENTA TARIFA HORARIA  Proyecto BA Coloso" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0594" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="82.66" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="516.62" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="93.76" ValorUnitario="93.76" Descripcion="VENTA TARIFA HORARIA  Proyecto BA Renacimiento" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0593" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="17.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="111.62" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="37628.64" ValorUnitario="37628.64" Descripcion="VENTA TARIFA HORARIA  Proyecto Parque Obrero" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0595" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7167.36" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="44796.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1260.00" ValorUnitario="1260.00" Descripcion="VENTA TARIFA HORARIA  Proyecto Parque Obrero" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0595" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="240.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1500.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="8116.69" ValorUnitario="8116.69" Descripcion="VENTA TARIFA HORARIA  Proyecto San Pablo" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0801" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1546.04" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="9662.73" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="27851.88" ValorUnitario="27851.88" Descripcion="VENTA TARIFA HORARIA  Centro Insurgentes" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0002" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5305.12" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="33157.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="5644.86" ValorUnitario="5644.86" Descripcion="VENTA TARIFA HORARIA  Santa Fe II" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0007" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1075.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="6720.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="8867.04" ValorUnitario="8867.04" Descripcion="VENTA TARIFA HORARIA  Universidad Iberoamericana" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0012" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1688.96" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="10556.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="13739.08" ValorUnitario="13739.08" Descripcion="VENTA TARIFA HORARIA  Plaza Cuauhtemoc" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0021" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2616.97" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="16356.05" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="36747.52" ValorUnitario="36747.52" Descripcion="VENTA TARIFA HORARIA  Hospital ABC Observatorio" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0026" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6999.53" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="43747.05" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="8902.38" ValorUnitario="8902.38" Descripcion="VENTA TARIFA HORARIA  Centro Armand" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0027" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1695.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="10598.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="21.67" ValorUnitario="21.67" Descripcion="VENTA TARIFA HORARIA  Sport City Loreto" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0033" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4.13" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="25.80" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3653.24" ValorUnitario="3653.24" Descripcion="VENTA TARIFA HORARIA  Lopez 8" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0042" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="695.85" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4349.09" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="881.16" ValorUnitario="881.16" Descripcion="VENTA TARIFA HORARIA  Torre Candela" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0047" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="167.84" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1049.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="163548.92" ValorUnitario="163548.92" Descripcion="VENTA TARIFA HORARIA  Plaza Satelite" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0060" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="31152.18" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="194701.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1378.28" ValorUnitario="1378.28" Descripcion="VENTA TARIFA HORARIA  Hospital Santa Coleta" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0066" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="262.53" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1640.81" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="13596.34" ValorUnitario="13596.34" Descripcion="VENTA TARIFA HORARIA  Universidad Panamericana" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0076" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2589.78" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="16186.12" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="15844.20" ValorUnitario="15844.20" Descripcion="VENTA TARIFA HORARIA  Pasaje Santa Fe" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0077" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3017.94" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="18862.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="135262.81" ValorUnitario="135262.81" Descripcion="VENTA TARIFA HORARIA  Plaza Universidad" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0086" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="25764.35" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="161027.16" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="12048.12" ValorUnitario="12048.12" Descripcion="VENTA TARIFA HORARIA  Parque Alameda" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0093" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2294.88" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="14343.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2436.00" ValorUnitario="2436.00" Descripcion="VENTA TARIFA HORARIA  Sport City Monterrey" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0101" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="464.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2900.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1013.21" ValorUnitario="1013.21" Descripcion="VENTA TARIFA HORARIA  Sport City Galerias Monterrey" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0109" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="192.99" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1206.20" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1478.58" ValorUnitario="1478.58" Descripcion="VENTA TARIFA HORARIA  Intergrafic" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0203" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="281.64" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1760.22" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="620.11" ValorUnitario="620.11" Descripcion="VENTA TARIFA HORARIA  Homero 440" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0216" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="118.12" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="738.23" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="5232.36" ValorUnitario="5232.36" Descripcion="VENTA TARIFA HORARIA  Plaza Magna" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0222" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="996.64" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="6229.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="56652.33" ValorUnitario="56652.33" Descripcion="VENTA TARIFA HORARIA  Torre Lindavista" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0236" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="10790.92" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="67443.25" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1955.75" ValorUnitario="1955.75" Descripcion="VENTA TARIFA HORARIA  Plaza Arquimedes" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0238" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="372.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2328.27" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1126.68" ValorUnitario="1126.68" Descripcion="VENTA TARIFA HORARIA  Sur 132" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0239" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="214.60" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1341.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="9234.12" ValorUnitario="9234.12" Descripcion="VENTA TARIFA HORARIA  Pericentro" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0240" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1758.88" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="10993.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="52322.18" ValorUnitario="52322.18" Descripcion="VENTA TARIFA HORARIA  Interlomas" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0244" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="9966.13" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="62288.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="71491.22" ValorUnitario="71491.22" Descripcion="VENTA TARIFA HORARIA  Hospital ABC Santa Fe" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0250" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="13617.38" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="85108.60" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="191353.68" ValorUnitario="191353.68" Descripcion="VENTA TARIFA HORARIA  Parque Delta" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0273" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="36448.32" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="227802.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="209428.80" ValorUnitario="209428.80" Descripcion="VENTA TARIFA HORARIA  Parque Lindavista" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0278" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="39891.20" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="249320.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="99884.40" ValorUnitario="99884.40" Descripcion="VENTA TARIFA HORARIA  Reforma 222" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0288" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="19025.60" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="118910.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="7812.36" ValorUnitario="7812.36" Descripcion="VENTA TARIFA HORARIA  Terreno Santa Fe OHL" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0297" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1488.07" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="9300.43" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4675.80" ValorUnitario="4675.80" Descripcion="VENTA TARIFA HORARIA  Amazonas" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0299" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="890.63" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="5566.43" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="7761.60" ValorUnitario="7761.60" Descripcion="VENTA TARIFA HORARIA  La Gran Plaza Leon" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0309" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1478.40" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="9240.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="24826.14" ValorUnitario="24826.14" Descripcion="VENTA TARIFA HORARIA  Walmart Combo Vallarta" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0323" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4728.79" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="29554.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="7112.95" ValorUnitario="7112.95" Descripcion="VENTA TARIFA HORARIA  Sam`s Mariano Otero" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0324" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1354.85" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="8467.80" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="5480.97" ValorUnitario="5480.97" Descripcion="VENTA TARIFA HORARIA  Walmart Tlaquepaque" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0325" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1044.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="6524.97" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="28236.60" ValorUnitario="28236.60" Descripcion="VENTA TARIFA HORARIA  Gran Terraza Oblatos" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0327" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5378.40" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="33615.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3234.00" ValorUnitario="3234.00" Descripcion="VENTA TARIFA HORARIA  Hospital Galenia" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0329" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="616.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3850.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="13563.06" ValorUnitario="13563.06" Descripcion="VENTA TARIFA HORARIA  Centro de Cancer ABC" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0406" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2583.44" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="16146.50" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="47366.76" ValorUnitario="47366.76" Descripcion="VENTA TARIFA HORARIA  Luna Parc" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0412" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="9022.24" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="56389.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="15102.22" ValorUnitario="15102.22" Descripcion="VENTA TARIFA HORARIA  Plaza Aeropuerto" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0417" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2876.61" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17978.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="638.87" ValorUnitario="638.87" Descripcion="VENTA TARIFA HORARIA  Corporativo Microsoft" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0424" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="121.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="760.56" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1337.76" ValorUnitario="1337.76" Descripcion="VENTA TARIFA HORARIA  Centro Universitario" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0426" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="254.81" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1592.57" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="10841.97" ValorUnitario="10841.97" Descripcion="VENTA TARIFA HORARIA  Plaza Azcapotzalco" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0439" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2065.14" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="12907.11" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="8941.50" ValorUnitario="8941.50" Descripcion="VENTA TARIFA HORARIA  Alco la Raza" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0451" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1703.14" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="10644.64" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="5034.12" ValorUnitario="5034.12" Descripcion="VENTA TARIFA HORARIA  Superama Los Leones" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0455" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="958.88" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="5993.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="489.59" ValorUnitario="489.59" Descripcion="VENTA TARIFA HORARIA  Homex" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0458" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="93.26" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="582.85" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="210.84" ValorUnitario="210.84" Descripcion="VENTA TARIFA HORARIA  Plaza Sor Juana" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0460" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="40.16" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="251.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="5363.97" ValorUnitario="5363.97" Descripcion="VENTA TARIFA HORARIA  Grand Altavista" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0462" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1021.71" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="6385.68" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="7707.57" ValorUnitario="7707.57" Descripcion="VENTA TARIFA HORARIA  Hotel Marriot" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0463" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1468.11" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="9175.68" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="554.98" ValorUnitario="554.98" Descripcion="VENTA TARIFA HORARIA  Alitas Insurgentes" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0464" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="105.71" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="660.69" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2491.22" ValorUnitario="2491.22" Descripcion="VENTA TARIFA HORARIA  Homero 1500" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0477" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="474.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2965.74" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1363.20" ValorUnitario="1363.20" Descripcion="VENTA TARIFA HORARIA  Dos Patios" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0478" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="259.66" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1622.86" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1689.03" ValorUnitario="1689.03" Descripcion="VENTA TARIFA HORARIA  Alitas Pedregal" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0481" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="321.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2010.75" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2633.40" ValorUnitario="2633.40" Descripcion="VENTA TARIFA HORARIA  NH Aeropuerto T2" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0487" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="501.60" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3135.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="248.54" ValorUnitario="248.54" Descripcion="VENTA TARIFA HORARIA  Ventum" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0490" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="47.34" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="295.88" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2436.75" ValorUnitario="2436.75" Descripcion="VENTA TARIFA HORARIA  Chedraui Buen Tono" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0494" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="464.14" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2900.89" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3767.32" ValorUnitario="3767.32" Descripcion="VENTA TARIFA HORARIA  Chedraui Coapa" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0495" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="717.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4484.91" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4913.09" ValorUnitario="4913.09" Descripcion="VENTA TARIFA HORARIA  Chedraui Neza" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0496" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="935.83" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="5848.92" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="414.96" ValorUnitario="414.96" Descripcion="VENTA TARIFA HORARIA  MCD Arboledas" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0500" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="79.04" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="494.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1087.78" ValorUnitario="1087.78" Descripcion="VENTA TARIFA HORARIA  MCD Ermita" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0502" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="207.20" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1294.98" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="44746.80" ValorUnitario="44746.80" Descripcion="VENTA TARIFA HORARIA  Plaza Tepeyac" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0290" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8523.20" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="53270.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="42.00" ValorUnitario="42.00" Descripcion="VENTA TARIFA HORARIA  TAE" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="9808" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="50.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="31639.52" ValorUnitario="31639.52" Descripcion="VENTA TARIFA HORARIA  Proyecto Plaza Bosques" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0700" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6026.58" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="37666.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1928.64" ValorUnitario="1928.64" Descripcion="VENTA TARIFA HORARIA  Proyecto Plaza Mia Santiago" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0722" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="367.36" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2296.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="139.50" ValorUnitario="139.50" Descripcion="VENTA TARIFA HORARIA  Proyecto Central de Abasto" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0728" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="26.57" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="166.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4922.46" ValorUnitario="4922.46" Descripcion="VENTA TARIFA HORARIA  Proyecto Alameda Poniente" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0729" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="937.61" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="5860.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1418.85" ValorUnitario="1418.85" Descripcion="VENTA TARIFA HORARIA  Proyecto Plaza Comercial Leones" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0730" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="270.26" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1689.11" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="7630.56" ValorUnitario="7630.56" Descripcion="VENTA TARIFA HORARIA  Proyecto Prado Sur" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0737" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1453.44" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="9084.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3878.28" ValorUnitario="3878.28" Descripcion="VENTA TARIFA HORARIA  Proyecto Prado Sur" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0737" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="738.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4617.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2942.52" ValorUnitario="2942.52" Descripcion="VENTA TARIFA HORARIA  Proyecto Plaza Toreo" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0738" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="560.48" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3503.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="235.26" ValorUnitario="235.26" Descripcion="VENTA TARIFA HORARIA  Proyecto Central de Abasto" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0728" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="44.81" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="280.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4376.46" ValorUnitario="4376.46" Descripcion="VENTA TARIFA HORARIA  Proyecto Alameda Poniente" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0729" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="833.61" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="5210.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1850.61" ValorUnitario="1850.61" Descripcion="VENTA TARIFA HORARIA  Proyecto Plaza Comercial Leones" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0730" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="352.50" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2203.11" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3428.88" ValorUnitario="3428.88" Descripcion="VENTA TARIFA HORARIA  Proyecto Prado Sur" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0737" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="653.12" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4082.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2446.08" ValorUnitario="2446.08" Descripcion="VENTA TARIFA HORARIA  Proyecto Plaza Toreo" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0738" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="465.92" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2912.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="32922.20" ValorUnitario="32922.20" Descripcion="VENTA TARIFA HORARIA  Proyecto Plaza Bosques" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0700" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6270.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="39193.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4015.20" ValorUnitario="4015.20" Descripcion="VENTA TARIFA HORARIA  Proyecto Plaza Mia Santiago" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="0722" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="764.80" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4780.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="746297.30">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="746297.30" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" Version="1.1" UUID="020A8507-D3FA-41A1-8AF1-A40424DC2F3A" FechaTimbrado="2018-05-29T10:42:19" RfcProvCertif="FEL100622S88" SelloCFD="LDKFt6DuxY8QyToaTPVr7NQQclDPNnkFoqa5Sr6ywkasfR+JvL6lwA2pKyscpWDgIFwv/B6AdKl87vyRlWAFw8C05AjFTlcaGsP9ort5ac/pczIBEzpdHuj1jrjD5qgoyIs4YE0XJHLKxOH+8lEoRb1qWYuuatnKST/ieih7aZ7XDZX4LC4qmLio4xzVPZPdsFbiS5gBsz0qm+OerPMcDPDlzpaBNxa2P3LX/V6QIfWoSj1EX1RA8yXVPsFqBR8BE8E8kxDujsPUpuX3kufN+k7s1QNpiAMRSO5Aeen3UL/WKCkbjRGrZIfO/aeEfgJI6fneCwp9jg0kcA2O2XYaLA==" NoCertificadoSAT="20001000000300022323" SelloSAT="hhiSrisBbcupZt/cLvoceDlScWTzylU5H8btENgYvuNj85e29zJZO+RdFmBjNrUqwd5JzXc5NX93+skzdv6JaY7kbhGOQuoqhkf9ZoPC/lp2m/tIkKKasnTWHfVIECWKx44fuJU48ZOTqRwIoI0yqNp3Hm7jP4Yn0J8Dlt6M8+4YUiQLThf459WqGi2q0QBtyw9sQwP79eawFxIIrwEkWHnhQq8YYzY3QaE9SN0YJQ8AzHtghr5SZRxmZEvHLwSwdcctx4jnTR3ztH8UAE6vR1uyGnOCwqxWvQcvinUBUUEHIQxI0KwORtLBx2j+Hbci0tzpVcRaPhPfNfwsjr66zg==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,10 @@
+{
+    "type": "sftp",
+    "host": "consulting.redsolution-mx.com",
+    "username": "root",
+    "password": "3ST3F4N1",
+    "port": 22,
+    "remotePath": "/var/sentora/hostdata/zadmin/public_html/desarrollos_gadhr_com_mx",
+    "uploadOnSave": false,
+    "uploadConfigFile": false
+}

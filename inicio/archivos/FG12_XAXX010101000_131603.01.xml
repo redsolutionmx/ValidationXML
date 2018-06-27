@@ -1,0 +1,2167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LugarExpedicion="01020" MetodoPago="PUE" TipoDeComprobante="E" Total="152659.63" TipoCambio="1" Moneda="MXN" SubTotal="131603.01" Certificado="MIIGnTCCBIWgAwIBAgIUMDAwMDEwMDAwMDA0MDI2NDY3MjIwDQYJKoZIhvcNAQELBQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3RyYWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRyaWJ1eWVudGUwHhcNMTYwNTMwMTgzMDM1WhcNMjAwNTMwMTgzMDM1WjCCATwxPDA6BgNVBAMTM09QRVJBRE9SQSBDRU5UUkFMIERFIEVTVEFDSU9OQU1JRU5UT1MgUyBBIFAgSSBERSBDVjE8MDoGA1UEKRMzT1BFUkFET1JBIENFTlRSQUwgREUgRVNUQUNJT05BTUlFTlRPUyBTIEEgUCBJIERFIENWMTwwOgYDVQQKEzNPUEVSQURPUkEgQ0VOVFJBTCBERSBFU1RBQ0lPTkFNSUVOVE9TIFMgQSBQIEkgREUgQ1YxJTAjBgNVBC0THE9DRTk0MTIwNzNMMyAvIEJBRkk3NzA1MjhOQTMxHjAcBgNVBAUTFSAvIEJBRkk3NzA1MjhIREZSTEcwNzE5MDcGA1UECxMwT1BFUkFET1JBIENFTlRSQUwgREUgRVNUQUNJT05BTUlFTlRPUyBTQVBJIERFIENWMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgm6QlOgoUBHQtPQWLFJ83vSPMIbTpORCz5NJFUckQApRUzAPVXgwkjL0FW4pnU3vJ1u70zuNKLIQqpczhcGKYOXRm2b5se91VmFipk84+j6ykUhNGFGMfW03rpH2v9O7AwlQq7giEymTXhTQl9CyOD3IIfaxJ4mXeEjaFn+eMk1Uh10oT991VHeMS0vOewS+DW4f6rMyAHdJof0eHNVtx7Ji0ygThTOwFrd/PJfIog8NVrpySW+EWiRg1riI9DW8kZS0J6oSG42f0swvIjbYz9KfGZ++LyaNUiSCvjEIsjbcDqbHJBN6AQ9tUVLSqna7gaEWOS3DtDAe9nxygNAgDwIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAJ0dWXkmAs/AXrB3MbxiwlN8ck+WBKaB4E1tpoOJtYJMiseLsvd0bQKMke9fQL/wj/1xra8XEY4N/Tk+Y53lvrEUEaRN3QlQso33MRdGsX+hufYcKbGmmPjOk+CAKkux9PMDCi8oyLpX6Vm4fbuWeqdp8ddoGOeY6379mcNscw6iOToPskCE1zPndqVq+yHHp/jgU+LZUvbM4dXW/Nh/mYh01u3hbmIxBi9mdrrv/mtmAxEJzmtU0GAsu8IpGzCQASGQeoQufkOomReCcrV/LWbHKKxLoiC2B0N4mAQgho2iX9XjSS/vL11+4qbGTrMMfeqMLwhnc4I/pkc4/P+jeVk++sMTPxgYOfgsE52gf2fdftwwbnSPYo/plQeXgyjk/ksHTACsTJ/WW6KKyJqzBqLIfu7abhW0xmFiNzm8CMwtMG7+Gp7zngroo3zvOG4H2/cro68jnKYmK7j+WmGHSilj1h5OF0A9wan8hy8JJB3aEFRS5LnJ1I5T/Km8Jzr6RiXdW8/sxFYhF+CqDdLSDTrJodYwYkZ9h/cwjSV5eXtmqWg/WuRennhkVgN6+MdLFRNOHHeKE5Fv4vKt3/x7qKLJxhfuwWpmaUu2H4c6VusF2nnwM5wD/Y7hOd2mve0CSQ9FQW9nB23Q1B88J/1KR5Ij2+wRdSqVshxauSm8ksXY=" NoCertificado="00001000000402646722" FormaPago="01" Sello="Aa1X4JuEIFJONSf21iQr9pjdSWDD2cWBztZ1AfAekN14pNcJgqGmuT7V46gS2Au99k7z+SY2S9V8AdXgq40Mrm206twVEFcHVHo/r8sDhK4z708uUANMaJ+Kig/ganAT8Z2s0NBG8H1DHda+jcYcpIHkehdFE/dzhvkEBEtJQdoWE9Fkc6FHUuWZRJQAF+CAEzjOPa1ni3R0YxlUq+APVWBg63qgTHbf4HAulDGF2XtnEs406FsNxp0N9UNs40GJqO6s+lOfbAF21yE05rmvyrY+1HnfPtHtWXmfIwlpFKdhugmpauJkYAEuBylneULvfugRvQTI1lU27QXBxCBBCA==" Fecha="2018-05-28T17:25:24" Folio="12" Serie="FG" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+  <cfdi:CfdiRelacionados TipoRelacion="04">
+    <cfdi:CfdiRelacionado UUID="5481A270-D22E-49FA-B365-C9452CD0094F" />
+  </cfdi:CfdiRelacionados>
+  <cfdi:Emisor RegimenFiscal="601" Nombre="OPERADORA CENTRAL DE ESTACIONAMIENTOS SAPI DE CV" Rfc="OCE9412073L3" />
+  <cfdi:Receptor UsoCFDI="G03" Nombre="PUBLICO EN GENERAL" Rfc="XAXX010101000" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Importe="1200.00" ValorUnitario="1200.00" Descripcion="JULIETA MEDRANO BRAVO" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39829" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="192.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1200.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="201.72" ValorUnitario="201.72" Descripcion="SERVICIOS ADMINISTRATIVOS FANAFESA S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39818" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="32.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="201.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="165.52" ValorUnitario="165.52" Descripcion="INGENIERIA PRODUCTIVIDAD Y CALIDAD S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39816" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="26.48" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="165.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="PRESEFA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39815" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="724.14" ValorUnitario="724.14" Descripcion="ZYDUS PHARMACEUTICALS MEXICO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39800" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="115.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="724.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="294.83" ValorUnitario="294.83" Descripcion="SERVICIOS ADMINISTRATIVOS FANAFESA S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39788" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="47.17" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="294.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="948.28" ValorUnitario="948.28" Descripcion="MR COMPUTER SOLUTIONS S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39772" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="151.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="948.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="646.55" ValorUnitario="646.55" Descripcion="FRANCORAL S.A DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39745" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="103.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="646.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="133.62" ValorUnitario="133.62" Descripcion="ABB MEXICO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39732" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="21.38" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="133.62" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="16.38" ValorUnitario="16.38" Descripcion="PROYECCION ROURA MEDRANO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39718" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.62" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="16.38" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="862.07" ValorUnitario="862.07" Descripcion="NATIA INMOBILIARIA S.A.P.I. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39707" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="137.93" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="862.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="88.79" ValorUnitario="88.79" Descripcion="SERVICIO INTEGRAL DE REFRIGERACIoN Y ELECTRICIDAD SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39692" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="14.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="88.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2801.72" ValorUnitario="2801.72" Descripcion="GRUPO GELANTE SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39664" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="448.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2801.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="298.28" ValorUnitario="298.28" Descripcion="BANCA MIFEL SA INSTITUCION DE BANCA MULTIPLE GRUPO FINANCIERO MIFEL" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39652" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="47.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="298.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="26.72" ValorUnitario="26.72" Descripcion="INNOVACION EN LA LIMPIEZA S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39640" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="26.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="202.59" ValorUnitario="202.59" Descripcion="ARTE MEXICANO MISRACHI S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39626" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="32.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="202.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="34.48" ValorUnitario="34.48" Descripcion="VILCRE DISENO INDUSTRIAL, S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39614" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="34.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="123.28" ValorUnitario="123.28" Descripcion="ICU MEDICAL DE MEXICO S DE RL. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39612" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="19.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="123.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="239.66" ValorUnitario="239.66" Descripcion="ABASTECEDOR CORPORATIVO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39587" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="38.34" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="239.66" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39574" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="33.62" ValorUnitario="33.62" Descripcion="IDIOMAS DE LA SIERRA DE GUADALUPE S.C" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39561" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5.38" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="33.62" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="138.79" ValorUnitario="138.79" Descripcion="LABORATORIOS TORRENT SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39549" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="22.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="138.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="168.10" ValorUnitario="168.10" Descripcion="SISTEMA INTEGRAL DE ABASTO RURAL SAPI DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39535" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="26.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="168.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="224.14" ValorUnitario="224.14" Descripcion="DIMENSION DATA COMMERCE CENTRO MEXICO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39830" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="35.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="224.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2068.95" ValorUnitario="2068.95" Descripcion="CORPORACION WORK SHOE MART SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39817" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="331.03" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2068.95" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="94.83" ValorUnitario="94.83" Descripcion="VARANNI DE MEXICO S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39799" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="15.17" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="94.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="25.86" ValorUnitario="25.86" Descripcion="ADACA MEDICAL S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39787" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4.14" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="25.86" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="137.07" ValorUnitario="137.07" Descripcion="DARIANA MITSUKO SAISHO ORTIZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39771" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="21.93" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="137.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="58.62" ValorUnitario="58.62" Descripcion="KONE DE MEXICO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39758" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="9.38" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="58.62" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="77.59" ValorUnitario="77.59" Descripcion="ADMISERV SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39747" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="12.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="77.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="43.10" ValorUnitario="43.10" Descripcion="YOLANDA MORUA HERNANDEZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39717" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="43.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1698.28" ValorUnitario="1698.28" Descripcion="SI SE PUEDE PAINANI SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39705" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="271.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1698.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="38.79" ValorUnitario="38.79" Descripcion="YAKULT,S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39678" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="38.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="38.79" ValorUnitario="38.79" Descripcion="INROADS DE MEXICO AC" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39662" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="38.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="172.41" ValorUnitario="172.41" Descripcion="MEGAMOTORS S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39642" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="27.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="172.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="94.83" ValorUnitario="94.83" Descripcion="ROMaN ARTURO IPInA CHACoN" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39627" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="15.17" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="94.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="31.03" ValorUnitario="31.03" Descripcion="FIBRA ENLACE SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39602" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4.97" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="31.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="130.17" ValorUnitario="130.17" Descripcion="SOMAR HUMANA S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39586" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="20.83" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="130.17" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4.31" ValorUnitario="4.31" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39563" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="0.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="856.90" ValorUnitario="856.90" Descripcion="ADMINISTRACION STENDHAL SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39548" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="137.10" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="856.90" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="275.86" ValorUnitario="275.86" Descripcion="AMERICAN EXPRESS BANK (MEXICO) SA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39827" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="44.14" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="275.86" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="202.59" ValorUnitario="202.59" Descripcion="SOMAR HUMANA S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39814" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="32.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="202.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="146.55" ValorUnitario="146.55" Descripcion="DALEG INT S A" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39801" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="23.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="146.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="474.14" ValorUnitario="474.14" Descripcion="MR COMPUTER SOLUTIONS S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39770" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="75.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="474.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="126.72" ValorUnitario="126.72" Descripcion="OPERADORA MING SC" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39742" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="20.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="126.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="113.79" ValorUnitario="113.79" Descripcion="IT CAMPUS GUADALAJARA SC" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39734" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="18.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="113.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="862.07" ValorUnitario="862.07" Descripcion="GRUPO CIME &amp; ASOCIADOS SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39704" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="137.93" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="862.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="156.03" ValorUnitario="156.03" Descripcion="CHIESI MEXICO SERVICIOS S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39691" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="24.97" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="156.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2844.83" ValorUnitario="2844.83" Descripcion="SERVICIOS INTEGRADOS PARA LA INDUSTRIA DE REFRESCOS SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39663" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="455.17" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2844.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="38.79" ValorUnitario="38.79" Descripcion="JORGE EDUARDO LUNA CONTRERAS" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39651" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="38.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="176.72" ValorUnitario="176.72" Descripcion="SERVICIOS ADMINISTRATIVOS IMC S. DE R.L. DE C..V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39625" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="28.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="176.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="120.69" ValorUnitario="120.69" Descripcion="SUMINISTRO PARA USO MEDICO Y HOSPITALARIO S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39610" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="19.31" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="120.69" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="68.97" ValorUnitario="68.97" Descripcion="GIESECHE Y DEVRIENT DE MEXICO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39585" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="11.03" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="68.97" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39572" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1465.52" ValorUnitario="1465.52" Descripcion="KOLBUS DE MEXICO S DE RL" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39547" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="234.48" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1465.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="77.59" ValorUnitario="77.59" Descripcion="LETICIA VICTORIA JUAREZ GONZALEZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39534" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="12.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="77.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="107.76" ValorUnitario="107.76" Descripcion="LUIS RAFAEL GAONA ZARATE" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39828" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="17.24" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="107.76" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="190.52" ValorUnitario="190.52" Descripcion="SERVICIOS ARIZONA FBM S. DE R. L. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39813" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="30.48" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="190.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="20.69" ValorUnitario="20.69" Descripcion="ADACA MEDICAL S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39786" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3.31" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="20.69" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="73.28" ValorUnitario="73.28" Descripcion="UNIVERSAL DE FLEXIBLES, SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39743" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="11.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="73.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="16.38" ValorUnitario="16.38" Descripcion="MAGNEP S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39730" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.62" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="16.38" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="38.79" ValorUnitario="38.79" Descripcion="EPSILON INGENIERIA Y CONECTIVIDAD SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39703" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="38.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="73.28" ValorUnitario="73.28" Descripcion="INTESISTA, SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39690" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="11.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="73.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="12.93" ValorUnitario="12.93" Descripcion="SHAMANU SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39665" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.07" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="12.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1422.41" ValorUnitario="1422.41" Descripcion="SERVICIOS DEPORTIVOS PARA LATINOAMERICA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39650" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="227.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1422.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="201.72" ValorUnitario="201.72" Descripcion="SERVIBENEFITS, S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39624" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="32.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="201.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="32.76" ValorUnitario="32.76" Descripcion="TELECOM ESPECTRO Y SOLUCIONES AMERICA S.A.P.I. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39611" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5.24" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="32.76" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="60.34" ValorUnitario="60.34" Descripcion="ESTUCO CONTRUCCIONES Y DISENO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39584" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="9.66" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="60.34" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39571" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="34.48" ValorUnitario="34.48" Descripcion="ARTROLIFE SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39545" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="34.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="504.31" ValorUnitario="504.31" Descripcion="SERVICIOS CORPORATIVOS DE PERSONAL VISION CI, SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39533" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="80.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="504.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="887.93" ValorUnitario="887.93" Descripcion="MOCA Y COMPANIA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39826" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="142.07" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="887.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1034.48" ValorUnitario="1034.48" Descripcion="GRUPO DE INTERCAMBIO COMERCIAL SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39812" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="165.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1034.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="176.72" ValorUnitario="176.72" Descripcion="MACDERMID PERFORMANCE SOLUTIONS MEXICO SERVICES, SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39785" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="28.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="176.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="63.79" ValorUnitario="63.79" Descripcion="SANDRA KARINA GUZMAN RODRIGUEZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39768" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="10.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="63.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="47.41" ValorUnitario="47.41" Descripcion="PRESTAMOS Y PAGOS SIMPLES S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39741" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="47.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="967.24" ValorUnitario="967.24" Descripcion="RESTAURANTES VPN SAPI DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39729" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="154.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="967.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="254.31" ValorUnitario="254.31" Descripcion="LORANT MARTINEZ SALAS Y COMPANIA AGENTE DE SEGUROS Y FINANZAS SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39702" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="40.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="254.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="103.45" ValorUnitario="103.45" Descripcion="INVERSINOX S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39689" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="16.55" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="103.45" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2758.40" ValorUnitario="2758.40" Descripcion="EL TIO RESTAURANTE LA SILLA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39660" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="441.34" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2758.40" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="43.10" ValorUnitario="43.10" Descripcion="IE CAPITAL HUMANO, SC" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39649" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="43.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="84.48" ValorUnitario="84.48" Descripcion="UNION DE CREDITO GENERAL, S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39623" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="13.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="84.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="49.14" ValorUnitario="49.14" Descripcion="DIGRIMEX S.A DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39613" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="49.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="159.48" ValorUnitario="159.48" Descripcion="SANBORN HERMANOS PRODUCTORA DE ALIMENTOS S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39588" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="25.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="159.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="112.93" ValorUnitario="112.93" Descripcion="ROYAL CANIN MEXICO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39573" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="18.07" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="112.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="172.40" ValorUnitario="172.40" Descripcion="PREVENCION DE SEGURIDAD PRIVADA Y PROTECCION CIVIL S.A DE C. V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39546" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="27.58" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="172.40" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="504.29" ValorUnitario="504.29" Descripcion="SERVICIOS CORPORATIVOS DE PERSONAL VISION CI, SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39532" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="80.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="504.29" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1724.14" ValorUnitario="1724.14" Descripcion="COREX S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39825" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="275.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1724.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="133.62" ValorUnitario="133.62" Descripcion="QUIMICA SAN DIEGO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39782" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="21.38" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="133.62" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="22.41" ValorUnitario="22.41" Descripcion="SALVADOR ZAVALA ESTRELLA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39759" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="22.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="139.66" ValorUnitario="139.66" Descripcion="INNOVACION EN LOGISTICA Y DISTRIBUCION SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39740" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="22.34" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="139.66" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="24.14" ValorUnitario="24.14" Descripcion="SIRONA DENTAL MEXICO S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39720" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="24.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="387.93" ValorUnitario="387.93" Descripcion="COMISION FEDERAL DE ELECTRICIDAD" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39700" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="62.07" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="387.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="36.21" ValorUnitario="36.21" Descripcion="JOA COMPUTACION SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39677" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5.79" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="36.21" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="64.66" ValorUnitario="64.66" Descripcion="ACTIA DE MEXICO" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39658" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="10.34" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="64.66" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="215.52" ValorUnitario="215.52" Descripcion="INNOVACION EN LA LIMPIEZA S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39638" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="34.48" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="215.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="46.55" ValorUnitario="46.55" Descripcion="PRODUCCIONES QUE DESPIERTAN, S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39622" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="46.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="153.45" ValorUnitario="153.45" Descripcion="SERVICIOS ADMINISTRATIVOS JUGOS DEL VALLE SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39598" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="24.55" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="153.45" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="16.38" ValorUnitario="16.38" Descripcion="OPERACION Y SUPERVISION DE HOTELES SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39583" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.62" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="16.38" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39560" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="134.48" ValorUnitario="134.48" Descripcion="ELMEX SUPERIOR S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39544" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="21.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="134.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="181.03" ValorUnitario="181.03" Descripcion="OPERADORA WINGS SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39824" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="28.97" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="181.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="139.66" ValorUnitario="139.66" Descripcion="MERCK S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39811" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="22.34" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="139.66" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="99.14" ValorUnitario="99.14" Descripcion="FERRING SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39809" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="15.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="99.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="193.97" ValorUnitario="193.97" Descripcion="STEFANIA YMAY DE LA VEGA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39796" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="31.03" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="193.97" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="6724.14" ValorUnitario="6724.14" Descripcion="ESTRATEGIAS Y SOLUCIONES EN IT SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39784" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1075.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="6724.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="967.24" ValorUnitario="967.24" Descripcion="RESTAURANTES VIPS S DE R L DE C V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39767" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="154.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="967.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1551.72" ValorUnitario="1551.72" Descripcion="TRANSPLACE DE MEXICO S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39757" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="248.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1551.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="517.24" ValorUnitario="517.24" Descripcion="LA CALLE DEL VINO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39744" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="82.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="517.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="862.07" ValorUnitario="862.07" Descripcion="TRADING CODE S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39728" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="137.93" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="862.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="523.28" ValorUnitario="523.28" Descripcion="LABORATORIOS PISA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39714" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="83.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="523.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="43.10" ValorUnitario="43.10" Descripcion="SIGMA FOODSERVICE SA DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39699" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="43.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="34.48" ValorUnitario="34.48" Descripcion="RM INTERNATIONAL SERVICES S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39688" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="34.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="147.41" ValorUnitario="147.41" Descripcion="PROGRAMACION COMERCIAL APLICADA S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39673" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="23.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="147.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="474.14" ValorUnitario="474.14" Descripcion="BAKER &amp; MCKENZIE MEXICO, S.C." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39666" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="75.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="474.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="63.79" ValorUnitario="63.79" Descripcion="ADMINISTRACION INTEGRAL LARCA COAPA S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39647" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="10.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="63.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="21.55" ValorUnitario="21.55" Descripcion="MAXIPUMPS ELECTRIC SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39634" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="21.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="71.55" ValorUnitario="71.55" Descripcion="ARRAMBIDE S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39609" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="11.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="71.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="86.21" ValorUnitario="86.21" Descripcion="JUVASA SERVICIOS SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39594" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="13.79" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="86.21" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="103.45" ValorUnitario="103.45" Descripcion="PROMOTORA DE RADIO DE QUERETARO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39582" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="16.55" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="103.45" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="176.72" ValorUnitario="176.72" Descripcion="M. E. MANAGMENT SERVICES S. DE R. L DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39570" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="28.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="176.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39557" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="51.72" ValorUnitario="51.72" Descripcion="BECK INTERNACIONAL DE MEXICO S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39543" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="51.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="465.52" ValorUnitario="465.52" Descripcion="DEPORTIVO TOLUCA FUTBOL CLUB SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39531" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="74.48" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="465.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="146.55" ValorUnitario="146.55" Descripcion="INTERMEC S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39838" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="23.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="146.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="86.21" ValorUnitario="86.21" Descripcion="GUILLERMO SIGFRIDO FERNANDEZ DE CASTRO" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39807" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="13.79" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="86.21" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="MIRIAM VAZQUEZ LOPEZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39795" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3362.07" ValorUnitario="3362.07" Descripcion="GRUPO STONCOR SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39773" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="537.93" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3362.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="31.03" ValorUnitario="31.03" Descripcion="GAB PUBLICIDAD CORPORATIVA S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39754" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4.97" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="31.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="38.79" ValorUnitario="38.79" Descripcion="ANDREA ESPINOZA BETANCOURT" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39727" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="38.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="155.17" ValorUnitario="155.17" Descripcion="CORPORACION INTERPUBLIC MEXICANA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39712" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="24.83" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="155.17" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="23.28" ValorUnitario="23.28" Descripcion="ULISES BONILLA SERVIN" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39687" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="23.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="202.59" ValorUnitario="202.59" Descripcion="ELSA DEL SOCORRO RODRIGUEZ BOJORQUEZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39672" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="32.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="202.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="98.28" ValorUnitario="98.28" Descripcion="ADRIAN LEON VAZQUEZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39646" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="15.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="98.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="60.34" ValorUnitario="60.34" Descripcion="BLSM LATINOAMERICA SERVICIOS S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39636" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="9.66" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="60.34" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="12.93" ValorUnitario="12.93" Descripcion="REPRESENTACIONES PFEIFER S.A DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39608" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.07" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="12.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="168.10" ValorUnitario="168.10" Descripcion="JOSE ALBERTO GONZALEZ BLANCO" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39596" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="26.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="168.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39569" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="21.55" ValorUnitario="21.55" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39555" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="21.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="504.31" ValorUnitario="504.31" Descripcion="DEPORTIVO TOLUCA FUTBOL CLUB SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39530" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="80.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="504.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="133.62" ValorUnitario="133.62" Descripcion="LIBRERIA DE PORRUA HERMANOS Y COMPANIA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39823" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="21.38" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="133.62" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="20.69" ValorUnitario="20.69" Descripcion="ASOFARMA DE MEXICO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39808" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3.31" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="20.69" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="127.59" ValorUnitario="127.59" Descripcion="GOSSLER S.C" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39781" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="20.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="127.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="114.66" ValorUnitario="114.66" Descripcion="SISTEMA INTEGRAL DE ADMINISTRACION S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39765" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="18.34" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="114.66" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="243.10" ValorUnitario="243.10" Descripcion="INNOVACION EN LOGISTICA Y DISTRIBUCION SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39738" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="38.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="243.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="51.72" ValorUnitario="51.72" Descripcion="BIMBO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39698" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="51.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2844.83" ValorUnitario="2844.83" Descripcion="LA MAGIA DE MERLIN, S.C." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39686" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="455.17" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2844.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="PATRICIA FONSECA GUTIERREZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39657" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="KEPLER CONSTRUCTORA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39645" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="25.86" ValorUnitario="25.86" Descripcion="PRESENTATION SERVICES RESOURCES SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39620" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4.14" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="25.86" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="77.59" ValorUnitario="77.59" Descripcion="ALIMENTOS EURO MEXICANO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39605" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="12.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="77.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="38.79" ValorUnitario="38.79" Descripcion="COMERCIALIZADORA MEXICANA DE PRODUCTOS RADIOLOGOS S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39581" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="38.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1611.21" ValorUnitario="1611.21" Descripcion="ARMSTRONG LABORATORIOS DE MEXICO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39568" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="257.79" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1611.21" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="51.72" ValorUnitario="51.72" Descripcion="BECK INTERNACIONAL DE MEXICO S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39542" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="51.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="336.20" ValorUnitario="336.20" Descripcion="SERVICIOS CORPORATIVOS DE PERSONAL VISION CI, SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39529" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="53.79" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="336.20" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="771.55" ValorUnitario="771.55" Descripcion="BARBARA DORADO GOMEZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39837" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="123.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="771.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="310.34" ValorUnitario="310.34" Descripcion="R&amp;R ENERGIA EN MOVIMIENTO, S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39822" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="49.66" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="310.34" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="120.69" ValorUnitario="120.69" Descripcion="ARIES INSUMOS Y ARTICULOS PARA OFICINA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39806" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="19.31" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="120.69" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="672.41" ValorUnitario="672.41" Descripcion="ASOFARMA DE MEXICO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39797" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="107.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="672.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2068.97" ValorUnitario="2068.97" Descripcion="MARVAN GONZALEZ GRAF Y GONZALEZ LARRAZOLO SC" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39780" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="331.03" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2068.97" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="68.97" ValorUnitario="68.97" Descripcion="CAPITAL HUMANO LM, S.A. DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39764" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="11.03" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="68.97" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1551.72" ValorUnitario="1551.72" Descripcion="DELICIAS ORANGE SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39753" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="248.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1551.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="93.97" ValorUnitario="93.97" Descripcion="ANDREA ESPINOZA BETANCOURT" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39725" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="15.03" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="93.97" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="47.41" ValorUnitario="47.41" Descripcion="JUAN CARLOS ALARCON VEVEZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39723" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="47.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1333.62" ValorUnitario="1333.62" Descripcion="LABORATORIOS PISA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39711" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="213.38" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1333.62" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="186.21" ValorUnitario="186.21" Descripcion="EULEN MEXICO DE SERVICIOS S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39701" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="29.79" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="186.21" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2844.83" ValorUnitario="2844.83" Descripcion="BLASCO Y ASOCIADOS S.C." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39685" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="455.17" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2844.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="49.14" ValorUnitario="49.14" Descripcion="CONSORCIO DE INGENIEROS SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39671" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="49.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="172.41" ValorUnitario="172.41" Descripcion="ALBERTO LANDY JALIL" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39659" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="27.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="172.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1422.41" ValorUnitario="1422.41" Descripcion="YURIDIA FLORES MONTIEL" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39648" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="227.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1422.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="120.69" ValorUnitario="120.69" Descripcion="MONOLITO CONSULTORiA ESPECIALIZADA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39633" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="19.31" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="120.69" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="144.83" ValorUnitario="144.83" Descripcion="COMERCIALIZADORA PEPSICO MEXICO S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39607" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="23.17" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="144.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="67.24" ValorUnitario="67.24" Descripcion="MEXICO RADIO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39593" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="10.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="67.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="102.59" ValorUnitario="102.59" Descripcion="QUODLIBET SERVICIOS DE APOYO EMPRESARIAL SC" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39579" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="16.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="102.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1580.17" ValorUnitario="1580.17" Descripcion="TAKEDA ADMINISTRACION MEXICO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39566" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="252.83" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1580.17" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="21.55" ValorUnitario="21.55" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39554" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="21.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="531.03" ValorUnitario="531.03" Descripcion="LABORATORIOS ALFASIGMA S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39541" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="84.97" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="531.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="168.10" ValorUnitario="168.10" Descripcion="SERVICIOS CORPORATIVOS DE PERSONAL VISION CI, SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39528" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="26.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="168.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1155.17" ValorUnitario="1155.17" Descripcion="COMERCIALIZADORA PEPSICO MEXICO S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39836" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="184.83" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1155.17" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="191.38" ValorUnitario="191.38" Descripcion="SERVICIOS ADMINISTRATIVOS FANAFESA S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39821" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="30.62" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="191.38" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="16.38" ValorUnitario="16.38" Descripcion="GRUPO GUTMINER S A" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39810" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.62" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="16.38" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="175.86" ValorUnitario="175.86" Descripcion="ASOFARMA DE MEXICO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39793" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="28.14" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="175.86" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="155.17" ValorUnitario="155.17" Descripcion="INNOVACION EN LOGISTICA Y DISTRIBUCION SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39783" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="24.83" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="155.17" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="71.55" ValorUnitario="71.55" Descripcion="LUZ ELIZABETH BARBA SORIA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39766" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="11.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="71.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="124.14" ValorUnitario="124.14" Descripcion="ASOCIACION NACIONAL DE ALMACENES FISCALIZADOS AC" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39752" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="19.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="124.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="168.10" ValorUnitario="168.10" Descripcion="PROMO CONCEPTOS SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39739" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="26.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="168.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="214.66" ValorUnitario="214.66" Descripcion="SIRONA DENTAL MEXICO, S. DE R.L. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39737" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="34.34" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="214.66" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="188.79" ValorUnitario="188.79" Descripcion="ALMACENES PHG, LA VALENCIANA, S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39726" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="30.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="188.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="262.93" ValorUnitario="262.93" Descripcion="G.S.I SEGURIDAD PRIVADA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39710" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="42.07" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="262.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="51.72" ValorUnitario="51.72" Descripcion="LABDIS S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39696" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="51.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="50.00" ValorUnitario="50.00" Descripcion="COMERCIALIZADORA CEREZO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39684" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="50.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="474.14" ValorUnitario="474.14" Descripcion="JOSE FRANCISCO CASTILLO OJEDA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39674" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="75.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="474.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="977.59" ValorUnitario="977.59" Descripcion="JOSE ANTONIO DE REYES Y EHRLICH" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39655" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="156.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="977.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="93.10" ValorUnitario="93.10" Descripcion="ALEJANDRA CRUZ BARCENAS" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39644" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="14.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="93.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="38.79" ValorUnitario="38.79" Descripcion="ADMINISTRADORA EN TECNOLOGIA DE INFORMACION DE MEXICO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39632" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="38.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="67.24" ValorUnitario="67.24" Descripcion="ROBERTO SaNCHEZ LoPEZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39621" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="10.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="67.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="25.86" ValorUnitario="25.86" Descripcion="SEAMLESS GLOBAL SOLUTIONS SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39619" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4.14" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="25.86" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="118.97" ValorUnitario="118.97" Descripcion="REUSSITE ADECCO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39606" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="19.03" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="118.97" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="43.10" ValorUnitario="43.10" Descripcion="MARiA TERESA LEONOR CONSUELO FLORES AMEZCUA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39595" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="43.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="640.52" ValorUnitario="640.52" Descripcion="KPMG cardENAS DOSAL, S.C." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39580" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="102.48" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="640.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="87.93" ValorUnitario="87.93" Descripcion="SEGURITEC TRANSPORTE DE VALORES SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39567" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="14.07" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="87.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4.31" ValorUnitario="4.31" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39553" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="0.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="38.79" ValorUnitario="38.79" Descripcion="MABI EXPORTACIONES S DE R L DE C V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39540" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="38.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="504.29" ValorUnitario="504.29" Descripcion="SERVICIOS CORPORATIVOS DE PERSONAL VISION CI, SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39527" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="80.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="504.29" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="327.58" ValorUnitario="327.58" Descripcion="COPPEL SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39835" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="52.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="327.58" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="16.38" ValorUnitario="16.38" Descripcion="JUANA PATLAN PEREZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39820" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.62" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="16.38" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="120.69" ValorUnitario="120.69" Descripcion="SEGURITEC TRANSPORTE DE VALORES SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39804" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="19.31" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="120.69" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="25.86" ValorUnitario="25.86" Descripcion="ASOFARMA DE MEXICO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39798" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4.14" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="25.86" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="929.31" ValorUnitario="929.31" Descripcion="PINTURAS BEST SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39792" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="148.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="929.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3620.70" ValorUnitario="3620.70" Descripcion="SB URBANA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39779" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="579.31" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3620.70" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1356.03" ValorUnitario="1356.03" Descripcion="IDIOMAS DE LA SIERRA DE GUADALUPE S.C" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39763" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="216.97" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1356.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1034.48" ValorUnitario="1034.48" Descripcion="GRUPO DE INTERCAMBIO COMERCIAL SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39769" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="165.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1034.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="89.66" ValorUnitario="89.66" Descripcion="TECNOLOGIA AGRICOLA PRODUCTIVA S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39750" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="14.34" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="89.66" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="109.48" ValorUnitario="109.48" Descripcion="EDUARDO VERGARA BECERRA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39735" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="17.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="109.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="51.72" ValorUnitario="51.72" Descripcion="INNOCEAN WORLDWIDE MEXICO S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39722" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="51.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="51.72" ValorUnitario="51.72" Descripcion="EVERIS MEXICO S. DE R.L DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39716" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="51.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="51.72" ValorUnitario="51.72" Descripcion="CORPORACION INTERPUBLIC MEXICANA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39709" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="51.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="323.28" ValorUnitario="323.28" Descripcion="CISEPIBO, A.C." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39697" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="51.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="323.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="345.69" ValorUnitario="345.69" Descripcion="KINDEMEX SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39683" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="55.31" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="345.69" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="455.17" ValorUnitario="455.17" Descripcion="TINTORERIA PLAZA BOSQUES S.A DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39675" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="72.83" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="455.17" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="COMERCIALIZADORA SIAGSA S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39670" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="12.93" ValorUnitario="12.93" Descripcion="GRUPO PROFESIONAL PLANEACION Y PROYECTOS, SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39643" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.07" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="12.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="32.76" ValorUnitario="32.76" Descripcion="OPERADORA DE GRAN CLASE SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39637" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5.24" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="32.76" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="47.41" ValorUnitario="47.41" Descripcion="SURTIDORA GRaFICA, S. A. DE C. V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39631" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="47.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="68.97" ValorUnitario="68.97" Descripcion="PATIACAN S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39617" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="11.03" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="68.97" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="93.10" ValorUnitario="93.10" Descripcion="PLANEACIoN Y DIRECCIoN CONSTRUCTORA S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39601" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="14.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="93.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="12.93" ValorUnitario="12.93" Descripcion="SINERGIA Y DESARROLLO, S.C." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39599" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.07" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="12.93" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="375.00" ValorUnitario="375.00" Descripcion="SAP MEXICO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39592" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="60.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="375.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="278.45" ValorUnitario="278.45" Descripcion="DAVID VELaZQUEZ GUERRERO" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39578" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="44.55" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="278.45" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="71.55" ValorUnitario="71.55" Descripcion="AREA METROPOLITANA CORPORATIVO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39565" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="11.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="71.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39559" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4.31" ValorUnitario="4.31" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39552" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="0.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="862.07" ValorUnitario="862.07" Descripcion="IRVING TELLO AGUILAR" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39539" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="137.93" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="862.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="56.90" ValorUnitario="56.90" Descripcion="CORPORACION MEXICANA DE POLIMEROS" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39526" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="9.10" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="56.90" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="47.41" ValorUnitario="47.41" Descripcion="SISTEMA INTEGRAL DE ADMINISTRACION S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39834" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="47.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="413.79" ValorUnitario="413.79" Descripcion="ZYDUS PHARMACEUTICALS MEXICO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39802" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="66.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="413.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="21.55" ValorUnitario="21.55" Descripcion="CLAYTON DE MEXICO, S. A. DE C. V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39794" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="21.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="172.41" ValorUnitario="172.41" Descripcion="MARTHA ELENA BETANCOURT BENAVIDES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39791" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="27.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="172.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1034.48" ValorUnitario="1034.48" Descripcion="EMPRESAS SALAMANCA S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39778" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="165.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1034.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="84.48" ValorUnitario="84.48" Descripcion="CARLOS ALVARO RODRIGUEZ AMIEVA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39762" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="13.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="84.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="328.45" ValorUnitario="328.45" Descripcion="DBSMART DE MEXICO S.A. DE C. V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39755" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="52.55" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="328.45" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="771.55" ValorUnitario="771.55" Descripcion="CARLOS ALBERTO OCAMPO GARCIA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39748" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="123.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="771.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="111.21" ValorUnitario="111.21" Descripcion="EDUARDO VERGARA BECERRA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39733" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="17.79" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="111.21" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="77.59" ValorUnitario="77.59" Descripcion="JORGE MAURO MARQUEZ MARQUEZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39724" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="12.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="77.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="353.45" ValorUnitario="353.45" Descripcion="FRUIT OF THE LOOM SERVICIOS SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39715" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="56.55" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="353.45" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="129.31" ValorUnitario="129.31" Descripcion="LETICIA CORTES RODRIGUEZ" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39708" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="20.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="129.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="60.34" ValorUnitario="60.34" Descripcion="SISTEMAS INTEGRALES DE INFORMACION CORPORATIVA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39695" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="9.66" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="60.34" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="862.07" ValorUnitario="862.07" Descripcion="JAR VALVES &amp; SERVICES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39682" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="137.93" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="862.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="226.72" ValorUnitario="226.72" Descripcion="ASOFARMA DE MEXICO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39676" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="36.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="226.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1422.41" ValorUnitario="1422.41" Descripcion="AGREGADOS DE MEXICO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39668" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="227.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1422.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2844.83" ValorUnitario="2844.83" Descripcion="DESARROLLADORA EN PROYECTOS DE SEGURIDAD ELECTRONICA IT SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39656" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="455.17" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2844.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="56.03" ValorUnitario="56.03" Descripcion="SERVICIOS ADMINISTRATIVOS ODEM S.C." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39654" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="8.97" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="56.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="490.52" ValorUnitario="490.52" Descripcion="NOVARTIS CORPORATIVO S.A DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39641" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="78.48" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="490.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="73.28" ValorUnitario="73.28" Descripcion="INTESISTA, SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39635" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="11.72" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="73.28" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="38.79" ValorUnitario="38.79" Descripcion="SURTIDORA GRaFICA, S. A. DE C. V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39630" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.21" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="38.79" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="CFE DISTRIBUCION" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39618" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="131.90" ValorUnitario="131.90" Descripcion="V CONSULTORES DE MEXICO S.R.L DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39604" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="21.10" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="131.90" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="77.59" ValorUnitario="77.59" Descripcion="CAPITAL GES S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39597" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="12.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="77.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="32.76" ValorUnitario="32.76" Descripcion="CLAUDIA PATINO ALCAZAR" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39591" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5.24" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="32.76" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="206.90" ValorUnitario="206.90" Descripcion="YOLANDA URIEGA ALBA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39577" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="33.10" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="206.90" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39564" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4.31" ValorUnitario="4.31" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39558" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="0.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="4.31" ValorUnitario="4.31" Descripcion="ALQUILADORA DE VEHICULOS AUTOMOTORES" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39551" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="0.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="4.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="168.10" ValorUnitario="168.10" Descripcion="MOEDANOS OTC" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39538" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="26.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="168.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="301.72" ValorUnitario="301.72" Descripcion="CONSTRUCTORA FERA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39525" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="48.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="301.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="176.72" ValorUnitario="176.72" Descripcion="ALEJANDRO GUZMAN LEOS" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39833" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="28.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="176.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="160.34" ValorUnitario="160.34" Descripcion="SERVICIOS ADMINISTRATIVOS FANAFESA S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39819" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="25.66" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="160.34" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="86.21" ValorUnitario="86.21" Descripcion="ENTREPRISE ADECCO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39805" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="13.79" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="86.21" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1896.55" ValorUnitario="1896.55" Descripcion="HOME DEPOT MEXICO S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39790" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="303.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1896.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="129.31" ValorUnitario="129.31" Descripcion="OHL MEXICO SAB DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39774" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="20.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="129.31" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1465.52" ValorUnitario="1465.52" Descripcion="ALMACENAJE INTEGRAL LOGISTICO S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39777" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="234.48" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1465.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="22.41" ValorUnitario="22.41" Descripcion="FELIX ENRIQUE VILLALOBOS CORDOVA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39761" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3.59" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="22.41" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="596.55" ValorUnitario="596.55" Descripcion="SERVICIOS BUNGE, S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39749" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="95.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="596.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="34.48" ValorUnitario="34.48" Descripcion="NOVA IT SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39736" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="5.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="34.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="125.00" ValorUnitario="125.00" Descripcion="SISTEMAS TECNOLOGICOS VEXTRON SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39719" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="20.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="125.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="18.10" ValorUnitario="18.10" Descripcion="NEGOCIACION SAN PABLO S C" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39721" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="18.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="409.48" ValorUnitario="409.48" Descripcion="TC DISAC SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39694" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="65.52" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="409.48" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="49.14" ValorUnitario="49.14" Descripcion="GRUPO DAISA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39681" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="49.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="474.14" ValorUnitario="474.14" Descripcion="RODRIGO BETANCOURT OCHOA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39669" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="75.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="474.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="2801.72" ValorUnitario="2801.72" Descripcion="GRUPO GELANTE SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39661" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="448.28" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="2801.72" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="41.38" ValorUnitario="41.38" Descripcion="INOVACION EN LOGISTICA Y DISTRIBUCION" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39639" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.62" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="41.38" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="21.55" ValorUnitario="21.55" Descripcion="SURTIDORA GRaFICA, S. A. DE C. V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39629" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="3.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="21.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="90.52" ValorUnitario="90.52" Descripcion="PROMOTORA IGNIA SC" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39615" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="14.48" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="90.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="107.76" ValorUnitario="107.76" Descripcion="RED UNIVERCOM SC" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39600" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="17.24" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="107.76" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="56.90" ValorUnitario="56.90" Descripcion="IMPULSO ADMINISTRATIVO Y COMERCIAL LEVER" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39590" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="9.10" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="56.90" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="103.45" ValorUnitario="103.45" Descripcion="PROMOTORA DE RADIO DE MORELOS, S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39576" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="16.55" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="103.45" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="116.38" ValorUnitario="116.38" Descripcion="MAGNEP S.A DE C.V" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39562" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="18.62" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="116.38" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="1896.55" ValorUnitario="1896.55" Descripcion="CAPGEMINI MEXICO S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39556" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="303.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="1896.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="504.29" ValorUnitario="504.29" Descripcion="SERVICIOS CORPORATIVOS DE PERSONAL VISION CI, SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39537" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="80.69" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="504.29" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="155.17" ValorUnitario="155.17" Descripcion="OPCEM S.A.P.I. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39832" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="24.83" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="155.17" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="146.55" ValorUnitario="146.55" Descripcion="JOSE LUIS NAVARRO NAVARRO" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39789" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="23.45" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="146.55" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="10344.83" ValorUnitario="10344.83" Descripcion="BANCO MERCANTIL DEL NORTE SA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39775" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="1655.17" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="10344.83" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3103.45" ValorUnitario="3103.45" Descripcion="VICTOR MANUEL SALINAS ESTRADA" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39760" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="496.55" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3103.45" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="49.14" ValorUnitario="49.14" Descripcion="STAFF CAPILAR Y CORPORAL M DE MEXICO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39746" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="7.86" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="49.14" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="193.97" ValorUnitario="193.97" Descripcion="OPCEM S.A.P.I. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39731" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="31.03" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="193.97" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="142.24" ValorUnitario="142.24" Descripcion="PASTELERIA Y CONFITERIA DE MEXICO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39706" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="22.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="142.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="43.10" ValorUnitario="43.10" Descripcion="MIDORI AUTO LEATHER MEXICANA SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39693" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="43.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="375.00" ValorUnitario="375.00" Descripcion="GRUPO ROBLEDO S.A. DE C.V." Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39680" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="60.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="375.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="43.10" ValorUnitario="43.10" Descripcion="PROVEEDORA ESPECIALIZADA EN REFRIGERACION Y ELECTRICIDAD SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39667" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="43.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="3362.07" ValorUnitario="3362.07" Descripcion="FWI LOGISTICS PRIVATE SECURRITY SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39653" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="537.93" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3362.07" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="27.59" ValorUnitario="27.59" Descripcion="NO TE SALVES SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39628" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="4.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="27.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="43.10" ValorUnitario="43.10" Descripcion="SAFE DATA RESOURCES SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39616" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="6.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="43.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17.24" ValorUnitario="17.24" Descripcion="PLAN P SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39603" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2.76" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17.24" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="77.59" ValorUnitario="77.59" Descripcion="CAPITAL GES S DE RL DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39589" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="12.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="77.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="102.59" ValorUnitario="102.59" Descripcion="LOREAL MEXICO SERVICIOS SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39575" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="16.41" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="102.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="125.00" ValorUnitario="125.00" Descripcion="ARMSTRONG LABORATORIOS DE MEXICO SA DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39550" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="20.00" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="125.00" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="168.10" ValorUnitario="168.10" Descripcion="SISTEMA INTEGRAL DE ABASTO RURAL SAPI DE CV" Unidad="SERVICIOS" ClaveUnidad="E48" Cantidad="1.00" NoIdentificacion="39536" ClaveProdServ="78111807">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="26.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="168.10" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="21056.62">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="21056.62" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" Version="1.1" UUID="E1F27CD4-46FC-4530-B185-ADD06348B26F" FechaTimbrado="2018-05-28T17:25:05" RfcProvCertif="FEL100622S88" SelloCFD="Aa1X4JuEIFJONSf21iQr9pjdSWDD2cWBztZ1AfAekN14pNcJgqGmuT7V46gS2Au99k7z+SY2S9V8AdXgq40Mrm206twVEFcHVHo/r8sDhK4z708uUANMaJ+Kig/ganAT8Z2s0NBG8H1DHda+jcYcpIHkehdFE/dzhvkEBEtJQdoWE9Fkc6FHUuWZRJQAF+CAEzjOPa1ni3R0YxlUq+APVWBg63qgTHbf4HAulDGF2XtnEs406FsNxp0N9UNs40GJqO6s+lOfbAF21yE05rmvyrY+1HnfPtHtWXmfIwlpFKdhugmpauJkYAEuBylneULvfugRvQTI1lU27QXBxCBBCA==" NoCertificadoSAT="00001000000408441752" SelloSAT="exzGLrZHaPCaB7bD5lsq+HhGcn0NkoFc6VK1Y69wdeGAngTyI73hDzUSpFvoWf9/Ymmvh3MJQEBYHiLxEvtymOE+/UGlKB0elTVSo6QQHGwWPwNbYp9uSW/MLU+dV6sF4kbjw51qDnzB6vGSpD+6KT509uXAKfLB90T0yhxBdairF6XRahR4tdeUqx2RNruwDbKCzM3ULmRzuJqw/8WuC3O2big26L4jfEilQKhbL0JctkvUqLn3O08rtNRha/pj8a7i0tpxyakFFC1Cupb19I/R+uLXZS2gCP/BRL96ymIoOhrwIO/ZzPJdZV82Psm/pyzzVsoeP2vSr/Vc8w9Lig==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>

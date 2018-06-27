@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LugarExpedicion="01020" MetodoPago="PUE" TipoDeComprobante="I" Total="4998904.31" TipoCambio="1" Moneda="MXN" SubTotal="4309400.27" CondicionesDePago="103 DIAS" Certificado="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" NoCertificado="00001000000402646722" FormaPago="99" Sello="O/YIDUX950NSg9+5KGmyMRf0Ys23zgLpoU34bUg8i7VahgvDzFBenzx9A38dICZ4Mqtsdb6eI24g0pl3ALvusoQ7lsa741KAVhlr7XO6+HUC4YNqvDPmrH6YvSJ1Yt3NtDJWuQQrUvccesFlA+tXuJRUGeQeSRHFB693OEk5czMzyeEvr1lhj/YOnQaP07fZPfQFBwuGut13ZKzppAIUk2XtcjbIEeIIWRYTVNVPnJib+k0CvgB5I3eJriSvu+d7v/yvgrphcVGu7B2D5uNMRcbTMLtaH0YDTpHr/lK/K9piaQiWNM1cOld3v5GIDBaOHLMQ3puqBLLHA3eITS90vw==" Fecha="2018-04-27T10:40:36" Folio="8900" Serie="I" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+  <cfdi:Emisor RegimenFiscal="601" Nombre="Operadora Central de Estacionamientos, SAPI DE C.V." Rfc="OCE9412073L3" />
+  <cfdi:Receptor UsoCFDI="G03" Nombre="OPERADORA DE NEGOCIOS DEL BAJIO SA DE CV" Rfc="ONB150918JXA" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Importe="3715555.65" ValorUnitario="39111.11" Descripcion="PENSIONES" Unidad="SERVICIO" ClaveUnidad="E48" Cantidad="95.00" NoIdentificacion="3" ClaveProdServ="95121644">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="594488.90" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="3715555.65" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="17716.03" ValorUnitario="393.69" Descripcion="PENSIONES" Unidad="SERVICIO" ClaveUnidad="E48" Cantidad="45.00" NoIdentificacion="3" ClaveProdServ="95121644">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="2834.57" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="17716.03" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Importe="576128.59" ValorUnitario="8349.69" Descripcion="HONORARIO FIJO Y VARIABLE DE" Unidad="SERVICIO" ClaveUnidad="E48" Cantidad="69.00" NoIdentificacion="20" ClaveProdServ="80101500">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Importe="92180.57" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" Base="576128.59" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="689504.04">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="689504.04" TasaOCuota="0.160000" TipoFactor="Tasa" Impuesto="002" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" Version="1.1" UUID="58C27CDB-BEFB-4877-B66A-FD98E42C874D" FechaTimbrado="2018-04-27T10:52:26" RfcProvCertif="FEL100622S88" SelloCFD="O/YIDUX950NSg9+5KGmyMRf0Ys23zgLpoU34bUg8i7VahgvDzFBenzx9A38dICZ4Mqtsdb6eI24g0pl3ALvusoQ7lsa741KAVhlr7XO6+HUC4YNqvDPmrH6YvSJ1Yt3NtDJWuQQrUvccesFlA+tXuJRUGeQeSRHFB693OEk5czMzyeEvr1lhj/YOnQaP07fZPfQFBwuGut13ZKzppAIUk2XtcjbIEeIIWRYTVNVPnJib+k0CvgB5I3eJriSvu+d7v/yvgrphcVGu7B2D5uNMRcbTMLtaH0YDTpHr/lK/K9piaQiWNM1cOld3v5GIDBaOHLMQ3puqBLLHA3eITS90vw==" NoCertificadoSAT="20001000000300022323" SelloSAT="eRGxyaRkBVREQrIFHIzCXCsbJCwWn6euBVtj5i9uH9+Zhyu/TbyaeY59BIBLyy4uufE8H/b0uYbpPTA+DDTqu566V+pKZ6HzHWv11ARz7ccZ53V+KOhQTg2DqRLBtEZ0ie3H1hTuTTmX7fAnN8E5dznCCMtxwAkDs5pTPILbdzt+P4qWWJgeRTszOq9U9LhL8Z21cDJ+muIOd3g9N0lbpQlM43VCOCK/go7jyud4ruhZYzpLijbtUrsdSCiCbMtJR8y+21pNgxJkuvfXOyu2X18XP8sxPlBpepozW/kYCfqSvRVGHt8sEaaPPXT/VZAe5CYzA4CNqLlVq5VX6UQuzg==" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
