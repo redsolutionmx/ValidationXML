@@ -191,7 +191,7 @@ foreach ($xml->xpath('//t:TimbreFiscalDigital') as $tfd) {
 }
 $usuario = $_SESSION['id'];
 $registro = "";
-$hoy = date("c");
+$hoy = date("d-m-y");
 $estado = "Activo";
 //$ins = $con->prepare("INSERT INTO Ticket (Ticket,id,Proveedor,RFC,Fecha,Importe_IVA,Num_Factura,UUID,Fecha_log,Ruta,Estatus) VALUES (?,?,?,?,?,?,?,?,?,?,?);");
 //$ins->bind_param(iisssssssss,$registro ,$usuario,$val_Emisor,$val_RFC,$val_Fecha,$varTotal,$varFol,$val_UUID,$hoy,$carpeta,$estado);/*'','".$nick."','".$pass1."','".$nombre."','".$correo."','".$nivel."',' 1 ','".$hoy."'*/
