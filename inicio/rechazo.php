@@ -1,5 +1,5 @@
 <?php
-    include '../conexion/conexion.php';
+    include '../Conexion/conexion.php';
 
     $id = htmlentities($_GET['id']); // Revisa lo que mandas en el de carga.php
     $coment = htmlentities($_GET['comentario']);

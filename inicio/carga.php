@@ -73,7 +73,7 @@ $row = mysql_num_rows($consulta);
               <th>No.Factura</th>
               <th>UUID</th>
               <th>Comentario</th>
-              <th>Pdf</th>
+              <th>Recibo</th>
               <th>Rechazado</th>
               <th>Valido</th>
             </tr>
@@ -144,7 +144,7 @@ $row = mysql_num_rows($consulta);
               'Se genero exitosamente',
               'success'
               ).then(function () {
-                location.href='pdf.php?pdf=<?php echo $f['ticket']?>;'  });"><i class="material-icons">picture_as_pdf</i></a></td>
+                location.href='pdf.php?pdf=<?php echo $f['ticket']?>;'  });"><i class="material-icons">file_download</i></a></td>
 
               <td><!-- -->
                 <a class="btn-floating btn-medium waves-effect waves-lighten red" onclick="swal({ title: '¿Estas seguro?',

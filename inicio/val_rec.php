@@ -1,7 +1,7 @@
 <?php
-  include '../conexion/conexion.php';
+  include '../Conexion/conexion.php';
   require '../phpdomhtml/simple_html_dom.php';
-  
+
   $url = "carga.php";
   $html=file_get_contents($url);
   //Creamos el objeto de Dom

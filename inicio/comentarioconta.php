@@ -11,21 +11,16 @@ $coment = $_POST['comentario'];
 $id_xml = $_POST['id_coment'];
 
 $del = "UPDATE ticket SET ticket.comentario='".$coment."' WHERE ticket.ticket = ".$id_xml;
-echo $del;
-echo $localhost;
-//echo "1";
-//$query_insert = mysql_query($del, $localhost) or die (mysql_error());
 
-//echo $query_insert;
 if (mysql_query($del,$localhost))
 {
 //header('location:../extend/alerta.php?msj=archivo comentado&c=arc&p=le&t=success');
 //echo "Se realizo consulta con estos valores: ".$id_xml." y el comentario fue: ".$coment;
-header("Location: carga.php");
+header("Location: contabilidad.php");
 }
 else
 {
 //header('location:../extend/alerta.php?msj=No pudo ser rechazado&c=arc&p=le&t=error');
 //echo "No se realizo consulta con estos valores: ".$id_xml." y el comentario fue: ".$coment;
-header("Location: carga.php");
+header("Location: contabilidad.php");
 }

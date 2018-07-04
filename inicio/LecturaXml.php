@@ -1,5 +1,4 @@
 <?php
-include '../../Conexion/conexion.php';
 
 $xml = simplexml_load_file($carpeta.$_FILES['ruta']['name'][$i]);
 $sxe = $xml;
@@ -21,18 +20,15 @@ foreach ($xml->xpath('//t:TimbreFiscalDigital') as $tfd) {
    $val_UUID = $tfd['UUID'];
    $val_Fecha = $tfd['FechaTimbrado'];
 }
+$usuario = $_SESSION['id'];
 $registro = "";
 
 $hoy = date("d-m-Y");
 
 $estado = "Activo";
 
-$insert = "insert into ticket(id,proveedor,rfc,fecha,importe_IVA,num_factura,uuid,fecha_log,ruta,estatus) VALUES ('".$_SESSION['id']."','".$val_Emisor."','".$val_RFC."','".$val_Fecha."','".$varTotal."','".$varFol."','".$val_UUID."','".$hoy."','".$nombrebase."','".$estado."');";
-$query_insert = mysql_query($insert, $localhost) or die (mysql_error());
-
-//echo $insert;
-
-//exit();
+$insert = "INSERT INTO ticket (id,proveedor,rfc,fecha,importe_IVA,num_factura,uuid,fecha_log,ruta,estatus) VALUE S ('".$usuario."','".$val_Emisor."','".$val_RFC."','".$val_Fecha."','".$varTotal."','".$varFol."','".$val_UUID."','".$hoy."','".$nombrebase."','".$estado."')";
+$mysql_insert_query = mysql_query($insert, $localhost) or die (mysql_error());
 /*if (mysql_query($insert, $localhost)){
   return true;
 }else{

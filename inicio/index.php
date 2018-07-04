@@ -19,7 +19,7 @@ include '../extend/permiso.php';
    </div>
  </div>
 
- 
+
 </body>
  <?php include '../extend/scripts.php'; ?>
  <script></script>

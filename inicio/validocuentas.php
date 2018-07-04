@@ -6,17 +6,17 @@
     $fechafol = date("d-m-Y");
     $folio = "PR_".$fechafol."_".$id;
     $hoy = date("d-m-Y");
-  //  $hoy = date("c");
-    $up = "UPDATE ticket SET ticket.estatus='COMPRAS', ticket.pre_Ticket= '".$folio."', ticket.fecha_log='".$hoy."', ticket.id='".$user."' WHERE ticket.ticket = ".$id;
+    //$hoy = date("c");
+    $up = "UPDATE ticket SET ticket.estatus='CUENTASPORPAGAR', ticket.pre_Ticket= '".$folio."', ticket.fecha_log='".$hoy."', ticket.id='".$user."' WHERE ticket.ticket = ".$id;
     //$up = "UPDATE ticket SET ticket.estatus='COMPRAS' WHERE ticket.ticket = ".$id;
     //$del = "UPDATE Ticket SET Ticket.Comentario='".$coment."' WHERE Ticket.Ticket = ".$id.;
 	if (mysql_query($up,$localhost))
 	{
-		header('location:../extend/alerta.php?msj=Archivo validado&c=com&p=pras&t=success');
+		header('location:../extend/alerta.php?msj=Archivo validado&c=cuen&p=pagar&t=success');
 	}
 	else
 	{
-		header('location:../extend/alerta.php?msj=No pudo ser validado&c=com&p=pras&t=error');
+		header('location:../extend/alerta.php?msj=No pudo ser validado&c=cuen&p=pagar&t=error');
     }
 
     //$con->close();

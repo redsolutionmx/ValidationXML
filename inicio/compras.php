@@ -40,8 +40,8 @@ include '../extend/permiso.php';
                <th>UUID</th>
                <th>Comen.anterior</th>
                <th>Comentario</th>
+               <th>Recibo</th>
                <th>Pdf</th>
-               <th>C.Pdf</th>
                <th>Rechazado</th>
                <th>Valido</th>
              </tr>
@@ -74,14 +74,14 @@ include '../extend/permiso.php';
                    'Se genero exitosamente',
                    'success'
                    ).then(function () {
-                     location.href='pdfcompras.php?id=<?php echo $f['ticket']?>;'  });"><i class="material-icons">picture_as_pdf</i></a></td>
+                     location.href='pdfcompras.php?id=<?php echo $f['ticket']?>;'  });"><i class="material-icons">file_download</i></a></td>
 
                      <td><a class="btn-floating btn-medium waves-effect waves-lighten blue" onclick="swal(
                        'Descargando PDF',
                        'Se genero exitosamente',
                        'success'
                        ).then(function () {
-                         location.href='descargapdf.php?id=<?php echo $f['ticket']?>;'  });"><i class="material-icons">file_download</i></a></td>
+                         location.href='descargapdf.php?id=<?php echo $f['ticket']?>;'  });"><i class="material-icons">picture_as_pdf</i></a></td>
 
 
                <td>

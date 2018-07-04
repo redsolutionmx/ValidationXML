@@ -3,7 +3,7 @@
     header('location: inicio');
     //cuando se ingresa del login se general las variables de sesion desde el login, aqui si existe se redirecciona a inicio
   }
-/*TEST UPDATE */
+
  ?>
 
  <!DOCTYPE html>
