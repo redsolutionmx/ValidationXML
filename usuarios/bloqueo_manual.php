@@ -1,4 +1,4 @@
-<?php include '../conexion/conexion.php';
+<?php include '../Conexion/conexion.php';
 $id = htmlentities($_GET['us']);
 $bloqueo = htmlentities($_GET['bl']);
 

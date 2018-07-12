@@ -7,7 +7,7 @@ if($usuarios == 'TODO')
 {
   $registros = mysql_query("SELECT * FROM ticket" ) or die ("Error en consulta ".mysql_error);
 }else{
-  $registros = mysql_query("SELECT * FROM ticket WHERE proveedor = '.$usuarios.' " ) or die ("Error en consulta ".mysql_error);
+  $registros = mysql_query("SELECT * FROM ticket WHERE proveedor = '".$usuarios."' " ) or die ("Error en consulta ".mysql_error);
 }
 
 
@@ -38,7 +38,7 @@ $row = mysql_num_rows($registros); // con este despliego la cantidad de registro
     <div class="card hoverable">
       <div class="card-content">
         <span class="card-title">Resultados de busqueda:(<?php echo $row ?>)</span>
-        <table>
+        <table  class="centered">
           <thead>
             <tr class="cabecera">
               <th>Ticket</th>

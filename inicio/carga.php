@@ -3,14 +3,15 @@
 include '../extend/permiso.php';
 
  ?>
-
+<script>//alert("ASEGURESE DE CARGAR UN ARCHIVO XML CON SU RESPECTIVO PDF Y DEBE CONTENER EL MISMO NOMBRE!!!!!!")</script>
  <!--Seleccionar archivos-->
 <body class="grey lighten-3">
 <div class="row">
   <div class = 'col s12 m12 l12'>
     <div class = 'card hoverable'>
       <div class="card-content">
-      <span class="card-title" style="">Carga de archivos:</span>
+        <!--<span class="card-title" style=""><h5>¡Cargue un xml con su respectivo pdf , Debe contener el mismo nombre!</h5></span>-->
+      <span class="card-title" style="">Carga de archivos: (Elije tu xml con su respectivo pdf, debe tener el mismo nombre)</span>
       <div class = "card-panel">
         <form action="ins_archivo/ins_archivos.php" method="post" enctype="multipart/form-data">
           <input type="hidden" name="id" value="<<?php echo $id ?>">
@@ -20,7 +21,7 @@ include '../extend/permiso.php';
               <input type="file" name="ruta[]" multiple>
           </div>
           <div class="file-path-wrapper">
-            <input class="file-path validate" type="text" placeholder="Elije tu xml con su respectivo pdf">
+            <input class="file-path validate" type="text" placeholder="!Debe contener el mismo nombre¡">
           </div>
           <!--<div><button type="submit" class="btn black" id="btn_cargar" >Cargar<i class="material-icons">cached</i></button></div>-->
           <div><button type="submit" class="btn-floating btn-medium waves-effect waves-light green" ><i class="material-icons">cloud_upload</i></button></div>
@@ -62,7 +63,7 @@ $row = mysql_num_rows($consulta);
     <div class="card hoverable">
       <div class="card-content">
         <span class="card-title">Archivos pendientes(<?php echo $row ?>)</span>
-        <table>
+        <table class="centered">
           <thead>
             <tr class="cabecera">
               <!--<th>Ticket</th>-->
@@ -114,12 +115,17 @@ $row = mysql_num_rows($consulta);
               -->
               <!-- cuarta opcion-->
               <form class="form" action="comentario.php" method="post" enctype="multipart/form-data" autocomplete="off">
+                <table>
               <div class="input-field">
+                <tr>
                   <input type="hidden" name="id_coment" value="<?php echo $f['ticket'] ?>">
                   <input type="text" name="comentario" id="comentario" onblur="may(this.value, this.id)" >
-                  <label for="Comentario">Comentario:</label>
+
                 </div>
-                <button type="submit" class="btn black" style="height:20px;width:20px;" id="btn_guardar"><i class="material-icons">add_box</i></button>
+                <button type="submit"id="btn_guardar">ENVIAR</button>
+              </td>
+              </tr>
+              </table>
                 </form>
 
               <!--<a class="btn-floating btn-medium waves-effect waves-lighten blue" onclick="swal({ title: '¿Cual es tu Comentario?',

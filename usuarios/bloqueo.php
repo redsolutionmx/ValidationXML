@@ -1,6 +1,6 @@
 <?php
 //bloqueo de acceso a paginas no permitidas
-include '../conexion/conexion.php';
+include '../Conexion/conexion.php';
 $user = $_SESSION['nick'];
 
 $up = "UPDATE usuarios SET bloqueo=0 WHERE nick='".$user."'";

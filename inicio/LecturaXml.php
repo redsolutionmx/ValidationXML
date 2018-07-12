@@ -23,17 +23,18 @@ foreach ($xml->xpath('//t:TimbreFiscalDigital') as $tfd) {
 $usuario = $_SESSION['id'];
 $registro = "";
 
-$hoy = date("d-m-Y");
+$hoy = date("c");
 
 $estado = "Activo";
 
-$insert = "INSERT INTO ticket (id,proveedor,rfc,fecha,importe_IVA,num_factura,uuid,fecha_log,ruta,estatus) VALUE S ('".$usuario."','".$val_Emisor."','".$val_RFC."','".$val_Fecha."','".$varTotal."','".$varFol."','".$val_UUID."','".$hoy."','".$nombrebase."','".$estado."')";
+$insert = "INSERT INTO ticket (id,proveedor,rfc,fecha,importe_iva,num_factura,uuid,fecha_log,ruta,estatus) VALUE S ('".$usuario."','".$val_Emisor."','".$val_RFC."','".$val_Fecha."','".$varTotal."','".$varFol."','".$val_UUID."','".$hoy."','".$nombrebase."','".$estado."')";
 $mysql_insert_query = mysql_query($insert, $localhost) or die (mysql_error());
 /*if (mysql_query($insert, $localhost)){
   return true;
 }else{
   return false;
 }*/
+
 
 
 ?>

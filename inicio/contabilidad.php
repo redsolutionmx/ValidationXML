@@ -1,6 +1,9 @@
 <?php include '../extend/header.php';
   //Restringe a usuarios para no entrar a paginas no permitidas
 include '../extend/permiso.php';
+//include 'ins_archivo/ins_archivos.php';
+//include '../Conexion/conexion.php';
+
  ?>
  <!--Buscador en la tabla-->
  <div class="row">
@@ -30,7 +33,7 @@ include '../extend/permiso.php';
      <div class="card hoverable">
        <div class="card-content">
          <span class="card-title">Archivos pendientes(<?php echo $row ?>)</span>
-         <table>
+         <table  class="centered">
            <thead>
              <tr class="cabecera">
                <th>Visualizar</th>
@@ -50,21 +53,12 @@ include '../extend/permiso.php';
 
            while ($f=mysql_fetch_assoc($consulta)) { ?>
              <tr><!--Modal-->
-               <td><a class="btn-floating btn-medium waves-effect waves-lighten #bf360c deep-orange darken-4" href="#openModal"><i class="material-icons">remove_red_eye</i></a>
-                 <div id="openModal" class="modalDialog">
-	                  <div>
-		                    <a href="#close" title="Close" class="close">X</a>
-		                      <h4>Información</h4>
-                          <p>Ticket: <?php echo $f['ticket'] ?></p>
-                          <p>Proveedor:<?php echo $f['proveedor'] ?></p>
-                          <p>RFC:<?php echo $f['rfc'] ?></p>
-                          <p>Fecha:<?php echo $f['fecha'] ?></p>
-                          <p>Importe con iva:<?php echo "$". number_format($f['importe_iva'], 2); ?></p>
-                          <p>Numero fact:<?php echo $f['num_factura'] ?></p>
-                          <p>UUID:<?php echo $f['uuid'] ?></p>
-                          <p>Comentario:<?php echo $f['comentario'] ?></p>
-	                           </div>
-                           </div></td>
+               <td><a class="btn-floating btn-medium waves-effect waves-lighten blue" onclick="swal({ title: 'Visualizar informacion de factura', type: 'info', showCancelButton: true, confirmButtonColor:
+               '#3085d6', cancelButtonColor: '#d33', confirmButtonText: 'Si!'}).then(function () {
+                   location.href='tabla.php?id=<?php echo $f['ticket']?>;'  });"><i class="material-icons">visibility</i></a></td>
+
+
+
                <td><?php echo $f['ticket'] ?></td>
                <td><?php echo $f['proveedor'] ?></td>
                <!--<td><?php echo $f['rfc'] ?>-->
@@ -75,12 +69,17 @@ include '../extend/permiso.php';
                <td><?php echo $f['comentario'] ?></td>
                <td>
                  <form class="form" action="comentarioconta.php" method="post" enctype="multipart/form-data" autocomplete="off">
+                   <table>
                  <div class="input-field">
+                   <tr>
                      <input type="hidden" name="id_coment" value="<?php echo $f['ticket'] ?>">
                      <input type="text" name="comentario" id="comentario" onblur="may(this.value, this.id)" >
-                     <label for="Comentario">Comentario:</label>
+
                    </div>
-                   <button type="submit" class="btn black" style="height:20px;width:20px;" id="btn_guardar"><i class="material-icons">add_box</i></button>
+                   <button type="submit"id="btn_guardar">ENVIAR</button>
+                 </td>
+                 </tr>
+                 </table>
                    </form>
 
                </td>
@@ -97,7 +96,7 @@ include '../extend/permiso.php';
                  <a href="#" class="btn-floating rbtn-medium waves-effect waves-lighten red" onclick="swal({ title: '¿Estas seguro?',
                  text: '¿desea rechazarlo?', type: 'warning', showCancelButton: true, confirmButtonColor:
                  '#3085d6', cancelButtonColor: '#d33', confirmButtonText: 'Si, rechazar!'}).then(function () {
-                 location.href='rechazo.php?id=<?php echo $f['ticket'] ?>';  })"><i class="material-icons">clear</i>
+                 location.href='rechazoconta.php?id=<?php echo $f['ticket'] ?>';  })"><i class="material-icons">clear</i>
                </td>
                 <td>
                  <a class="btn-floating btn-medium waves-effect waves-lighten green darken-1 " onclick="swal({ title: 'Valido',

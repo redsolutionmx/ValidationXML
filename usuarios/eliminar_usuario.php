@@ -1,5 +1,5 @@
 <?php
-    include '../conexion/conexion.php';
+    include '../Conexion/conexion.php';
 
     $id = htmlentities($_GET['id']);
 

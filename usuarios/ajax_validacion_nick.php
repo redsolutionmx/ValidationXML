@@ -1,5 +1,5 @@
 <?php
-include '../conexion/conexion.php';
+include '../Conexion/conexion.php';
 $nick = htmlentities($_POST['nick']);
 /*
 $con->real_escape_string

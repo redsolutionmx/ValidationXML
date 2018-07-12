@@ -76,6 +76,14 @@
             $_SESSION['correo']= $correo;
             header('location: ../extend/alerta.php?msj=Bienvenido mesa de control&c=arc&p=le&t=success');
             break;
+            case 'HISTORIAL':
+                $_SESSION['id'] = $ID;
+                $_SESSION['nick'] = $nick;
+                $_SESSION['nombre']= $nombre;
+                $_SESSION['nivel']= $nivel;
+                $_SESSION['correo']= $correo;
+                header('location: ../extend/alerta.php?msj=Bienvenido&c=home&p=home&t=success');
+                break;
         case 'COMPRAS':
             $_SESSION['id'] = $ID;
             $_SESSION['nick'] = $nick;
@@ -100,14 +108,6 @@
             $_SESSION['correo']= $correo;
             header('location: ../extend/alerta.php?msj=Bienvenido contabilidad&c=cont&p=bili&t=success');
             break;
-            case 'HISTORIALUSU':
-                $_SESSION['id'] = $ID;
-                $_SESSION['nick'] = $nick;
-                $_SESSION['nombre']= $nombre;
-                $_SESSION['nivel']= $nivel;
-                $_SESSION['correo']= $correo;
-                header('location: ../extend/alerta.php?msj=Bienvenido administrador&c=home&p=home&t=success');
-                break;
         default:
             header('location: ../extend/alerta.php?msj=No tienes permiso de entrar&c=salir&p=salir&t=error');
     }

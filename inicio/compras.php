@@ -30,7 +30,7 @@ include '../extend/permiso.php';
      <div class="card hoverable">
        <div class="card-content">
          <span class="card-title">Archivos pendientes(<?php echo $row ?>)</span>
-         <table>
+         <table  class="centered">
            <thead>
              <tr class="cabecera">
                <th>Ticket</th>
@@ -60,12 +60,17 @@ include '../extend/permiso.php';
                <td><?php echo $f['comentario'] ?></td>
                <td>
                  <form class="form" action="comentariocompras.php" method="post" enctype="multipart/form-data" autocomplete="off">
+                   <table>
                  <div class="input-field">
+                   <tr>
                      <input type="hidden" name="id_coment" value="<?php echo $f['ticket'] ?>">
                      <input type="text" name="comentario" id="comentario" onblur="may(this.value, this.id)" >
-                     <label for="Comentario">Comentario:</label>
+
                    </div>
-                   <button type="submit" class="btn black" style="height:20px;width:20px;" id="btn_guardar"><i class="material-icons">add_box</i></button>
+                   <button type="submit"id="btn_guardar">ENVIAR</button>
+                 </td>
+                 </tr>
+                 </table>
                    </form>
 
                </td>
@@ -88,7 +93,7 @@ include '../extend/permiso.php';
                  <a href="#" class="btn-floating rbtn-medium waves-effect waves-lighten red" onclick="swal({ title: '¿Estas seguro?',
                  text: '¿desea rechazarlo?', type: 'warning', showCancelButton: true, confirmButtonColor:
                  '#3085d6', cancelButtonColor: '#d33', confirmButtonText: 'Si, rechazar!'}).then(function () {
-                 location.href='rechazo.php?id=<?php echo $f['ticket'] ?>';  })"><i class="material-icons">clear</i>
+                 location.href='rechazocomp.php?id=<?php echo $f['ticket'] ?>';  })"><i class="material-icons">clear</i>
                </td>
                <td>
                  <a class="btn-floating btn-medium waves-effect waves-lighten green darken-1 " onclick="swal({ title: 'Valido',

@@ -41,23 +41,11 @@
               <div class = 'col s6 offset-s3 valign'>
                 <div class = 'card z-depth-5 hoverable'>
                   <div class = "card-content">
-                    <span class = 'card-title'><center>Inicio de sesión</center></span>
-                    <form action="login/index.php" method="post" autocomplete="off">
-                      <div class="input-field"><!-- Guarda :v --->
-                        <i class="material-icons prefix">perm_identity</i>
-                      <input type="text" name="usuario" id="usuario" required pattern="[A-Za-z]{8,15}" autofocus>
-                      <label for="usuario">Usuario</label><!--OYE -->
-                      </div>
-                  <div class="input-field">
-                    <i class="material-icons prefix">vpn_key</i>
-                    <input type="password" name="contra" id="contra" required pattern="[A-Za-z0-9]{8,15}">
-                      <label for="contra">Contraseña</label>
-                  </div>
+                    <span class = 'card-title'><center>Correo no existe</center></span>
+                    <p>El correo no esta en la base de datos</p>
+                    <p>Porfavor contacte con su gerente</p>
                   <div>
-                   <a href="recuperar.php"><i class="material-icons">lightbulb_outline</i>Contraseña olvidada</a>
-                  </div>
-                  <div class="input-field center">
-                    <button type="submit" class="btn waves-effect waves-light">Acceder</button>
+                   <a href="index.php"><i class="material-icons">keyboard_return</i>VOLVER A INICIO</a>
                   </div>
                 </form>
                 </div>

@@ -18,6 +18,9 @@
 <li><a href="../inicio"><i class="material-icons">home</i>INICIO</a></li>
 <li><div class="divider"></div></li>
 
+<li><a href="../inicio/cuentasporpagar.php"><i class="material-icons">attach_money</i>CUENTAS POR PAGAR</a></li>
+<li><div class="divider"></div></li>
+
 <li><a href="../login/salir.php"><i class="material-icons">power_settings_new</i>SALIR</a></li>
 <li><div class="divider"></div></li>
 

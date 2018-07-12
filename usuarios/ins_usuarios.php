@@ -91,14 +91,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $pass1 = MD5($pass1);
     $hoy = getdate();
 
-    //php 7
-    /*$ins = $con->query("INSERT INTO Usuarios (id,nick,pass,nombre,correo,nivel,bloqueo,Last_session)VALUES('','$nick', '$pass1', '$nombre', '$correo' , '$nivel' , 1 , '$hoy') ");
-    *///php 5.4 antes de alan
-    /*$insert = "INSERT INTO usuarios (id,nick,pass,nombre,correo,nivel,bloqueo,last_session)VALUES('','".$nick."','".$pass1."','".$nombre."','".$correo."','".$nivel."',' 1 ','".$hoy."') ";*/
-    $insert = "insert into usuarios(id,nick,pass,nombre,correo,nivel,bloqueo,last_session) VALUES ('".$nick."','".$pass1."','".$nombre."','".$correo."','".$nivel."','1','".$hoy."')";
-    //$query_insert = mysql_query($insert, $localhost) or die (mysql_error());
-    //echo $insert;
 
+    /*$ins = $con->query("INSERT INTO Usuarios (id,nick,pass,nombre,correo,nivel,bloqueo,Last_session)VALUES('','$nick', '$pass1', '$nombre', '$correo' , '$nivel' , 1 , '$hoy') ");
+    */
+    $insert = "INSERT INTO usuarios (id,nick,pass,nombre,correo,nivel,bloqueo,last_session)VALUES('','".$nick."','".$pass1."','".$nombre."','".$correo."','".$nivel."',' 1 ','".$hoy."')";
     if ($consulta = mysql_query($insert, $localhost)) {
       header('location: ../extend/alerta.php?msj=El usuario ha sido registrado&c=us&p=in&t=success');
     }else{

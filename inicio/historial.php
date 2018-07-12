@@ -32,7 +32,7 @@ include '../Conexion/conexion.php';
 ?>
 
 <div class = 'row'>
-  <div class = 'col s6 m6'>
+  <div class = 'col s12 m12'>
     <div class = 'card hoverable'>
       <br>
 <span ><h5 align="center">Busqueda en registro</h5></span>
@@ -42,8 +42,10 @@ include '../Conexion/conexion.php';
       <!--<input type="text" id="start_fecha" name="start_fecha" value="dd/mm/aaaa">
       <input type="text" id="end_fecha" name="end_fecha" value="dd/mm/aaaa">
       <input type="hidden" id="fomr_sent" name="form_sent" value="true">-->
-      <input type="text" name="datepicker" id="datepicker" readonly="readonly" size="12">
+      <input type="date" name="bday">
+      <input type="date" name="bday2">
       <button type="submit" name="name" value="" class="btn black" id="btn_search"><i class="material-icons">search</i></button>
+
     <!--
     <input type="text" name="fecha" placeholder="Ingrese fecha a buscar con el siguiente formato: (dd-mm-aa)">
       <button type="submit" name="name" value="" class="btn black" id="btn_search"><i class="material-icons">search</i></button>
@@ -79,6 +81,8 @@ $pro = mysql_query("SELECT distinct(proveedor) FROM ticket" ) or die ("Error en 
       <option value="Activo">Activo</option>
       <option value="MESA">Mesa de control</option>
       <option value="COMPRAS">Compras</option>
+      <option value="CUENTASPORPAGAR">Cuentas por pagar</option>
+      <option value="CONTABILIDAD">Contabilidad</option>
       <option value="Rechazado">Rechazado</option>
     </select>
 <button type="submit" name="name" value="" class="btn black" id="btn_search"><i class="material-icons">search</i></button>

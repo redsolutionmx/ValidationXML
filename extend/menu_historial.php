@@ -26,18 +26,6 @@
 <li><a href="../usuarios/registro.php"><i class="material-icons">person_add</i>AGREGAR</a></li>
 <li><div class="divider"></div></li>
 
-<li><a href="../inicio/carga.php"><i class="material-icons">file_upload</i>CARGA DE ARCHIVOS</a></li>
-<li><div class="divider"></div></li>
-
-<li><a href="../inicio/compras.php"><i class="material-icons">find_in_page</i>COMPRAS</a></li>
-<li><div class="divider"></div></li>
-
-<li><a href="../inicio/cuentasporpagar.php"><i class="material-icons">attach_money</i>CUENTAS POR PAGAR</a></li>
-<li><div class="divider"></div></li>
-
-<li><a href="../inicio/contabilidad.php"><i class="material-icons">receipt</i>CONTABILIDAD</a></li>
-<li><div class="divider"></div></li>
-
 <li><a href="../login/salir.php"><i class="material-icons">power_settings_new</i>SALIR</a></li>
 <li><div class="divider"></div></li>
 

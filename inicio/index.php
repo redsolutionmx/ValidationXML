@@ -13,7 +13,7 @@ include '../extend/permiso.php';
      <div class = 'card hoverable'>
        <div class = "card-content">
          <span class = 'card-title'>BIENVENIDOS A CENTRAL</span>
-         <p>Portal para genstionamiento de facturas</p>
+         <p>Portal para gestionamiento de facturas</p>
        </div>
      </div>
    </div>

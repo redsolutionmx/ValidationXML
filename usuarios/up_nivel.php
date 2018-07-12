@@ -1,6 +1,6 @@
 <?php
 
-  include '../conexion/conexion.php';
+  include '../Conexion/conexion.php';
   //Modifica el valor de nivel para los usuarios :v
   if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $id = htmlentities($_POST['id']);

@@ -8,8 +8,12 @@ $pdf = htmlentities($_GET['pdf']);
 //Fecha_log
 date_default_timezone_set('America/Mexico_City');
 $date = date("d-m-y (H:i:s)");
-
+$fechafol = date("d/m/Y");
+$folio = "PR_".$fechafol."_".$pdf;
 $fechaactual = getdate();
+
+$up = "UPDATE ticket SET  ticket.pre_ticket= '".$folio."' WHERE ticket.ticket = ".$pdf;
+$con = mysql_query($up,$localhost);
 //echo "Hoy es: $fechaactual[weekday], $fechaactual[mday] de $fechaactual[month] de $fechaactual[year]";
 
 $sel = "SELECT ticket,proveedor, rfc , fecha , importe_iva , num_factura , uuid, estatus, comentario FROM ticket WHERE ticket=".$pdf;

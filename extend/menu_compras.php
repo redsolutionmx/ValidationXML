@@ -14,7 +14,11 @@
     <a href="" class="white-text"><?php echo $_SESSION['correo'] ?></a>
   </div>
 </li>
+<li><a href="../inicio"><i class="material-icons">home</i>INICIO</a></li>
+<li><div class="divider"></div></li>
 
+<li><a href="../inicio/compras.php"><i class="material-icons">find_in_page</i>COMPRAS</a></li>
+<li><div class="divider"></div></li>
 
 <li><a href="../login/salir.php"><i class="material-icons">power_settings_new</i>SALIR</a></li>
 <li><div class="divider"></div></li>

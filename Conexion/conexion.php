@@ -127,7 +127,11 @@ if (!isset($localhost))
   {
     die("No se ha podido conectar a la BD: " . mysql_error());
   }*/
-
+  /*
+  $hostname_localhost = 'localhost';
+  $database_localhost = 'zadmin_facturas';
+  $username = 'factua';
+  $password = 'nesepude6';*/
   $hostname_localhost = 'localhost';
   $database_localhost = 'zadmin_facturas';
   $username = 'factua';

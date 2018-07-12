@@ -25,7 +25,7 @@
 /*$sel = $con -> query ("SELECT * FROM Usuarios where bloqueo != 9");
 //Esto te dice cuantos usuarios hay
 $row = mysqli_num_rows($sel);*/
-  $sel = "SELECT * FROM usuarios where bloqueo=1 OR bloqueo =0";
+  $sel = "SELECT * FROM usuarios WHERE NOT nivel =  'ADMINISTRADOR' AND bloqueo =1 OR bloqueo =0";
   $consulta = mysql_query($sel,$localhost);
 //  $var = mysql_fetch_assoc($consulta) or die ('no se pudo hacer la consulta'.mysql_error());
   $row = mysql_num_rows($consulta);
@@ -37,7 +37,7 @@ $row = mysqli_num_rows($sel);*/
           <div class = "card-content">
             <span class = 'card-title'>Usuarios(<?php echo $row ?>)</span>
             <!-- puntos de arriba de la tabla-->
-            <table>
+            <table  class="centered">
               <thead>
                 <tr class="cabecera">
                 <th>Nick</th>

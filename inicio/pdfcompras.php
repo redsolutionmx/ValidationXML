@@ -3,14 +3,16 @@ include '../Conexion/conexion.php';
 setlocale(LC_ALL,"es_MX.UTF-8");
 
 $id = htmlentities($_GET['id']);
-
+$fechafol = date("d/m/Y");
+$folio = "CR_".$fechafol."_".$id;
 //Fecha_log
 date_default_timezone_set('America/Mexico_City');
 $date = date("d-m-y (H:i:s)");
 
 $fechaactual = getdate();
 //echo "Hoy es: $fechaactual[weekday], $fechaactual[mday] de $fechaactual[month] de $fechaactual[year]";
-
+$up = "UPDATE ticket SET  ticket.com_ticket= '".$folio."' WHERE ticket.ticket = ".$id;
+$con = mysql_query($up,$localhost);
 $sel = "SELECT ticket,proveedor, rfc , fecha , importe_iva , num_factura , uuid, estatus, comentario FROM ticket WHERE ticket=".$id;
 $consulta = mysql_query($sel,$localhost);
 //  $var = mysql_fetch_assoc($consulta) or die ('no se pudo hacer la consulta'.mysql_error());

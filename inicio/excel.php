@@ -4,10 +4,13 @@ include '../Conexion/conexion.php';
 require_once "../phpExcel/Classes/PHPExcel.php";
 //require_once "../phpExcel/Classes/PHPExcel/Cell.php";
 
-date_default_timezone_set("America/Mexico_City");
+//date_default_timezone_set("America/Mexico_City");
+$fechaactual = getdate();
+
 
 //Consulta
 //$sel = "-SELECT ticket,proveedor, rfc , fecha , importe_iva , num_factura , uuid, fecha_log, estatus, comentario,id FROM ticket";
+
 if(!isset($com)){
   $sel="SELECT t.ticket, t.proveedor, t.rfc, t.fecha, t.importe_iva, t.num_factura,
   t.uuid, t.fecha_log, t.estatus, t.comentario,
@@ -47,11 +50,10 @@ if($row > 0){
               ->setCategory("Reporte Excel");//categorias
 
   $tituloReporte = "Reporte de facturas";
-  $titulosColumnas = array('ticket' ,'Ultimo en modificar' , 'proveedor' , 'rfc' , 'fecha' , 'importe_iva' , 'num_factura' , 'uuid' , 'fecha_log' , 'estatus' , 'comentario', 'pre_ticket' , 'com_ticket');
+  $titulosColumnas = array('Ticket' ,'Ultimo en modificar' , 'Proveedor' , 'Rfc' , 'Fecha' , 'Importe Iva' , 'No. Factura' , 'UUID' , 'Fecha carga' , 'Estatus' , 'Comentario', 'Prerecibo' , 'Contrarecibo');
 
 //Se combinan las celdas A1 hasta D1 para cpñpcar ahi el titulo
-$objPHPExcel->setActiveSheetIndex(0)
-            ->mergeCells('A1:D1');
+$objPHPExcel->setActiveSheetIndex(0)->mergeCells('A1:D1');
 
             //Se agregan los titulos del reporte
             $objPHPExcel->setActiveSheetIndex(0)
@@ -124,14 +126,15 @@ $objPHPExcel->setActiveSheetIndex(0)
               'name' => 'Arial',
               'bold' => true,
               'color' => array(
-                'rgb' => 'FFFFFF'
+                'rgb' => '#000000'
               )
             ),
+            //Rellena el cuadro con el contenido
             'fill' => array(
               'type' => PHPExcel_Style_Fill::FILL_GRADIENT_LINEAR,
               'rotation' => 90,
               'startcolor' => array(
-                'rgb' => 'c47cf2'
+                'rgb' => '#FFFFFF'
               ),
               'endcolor' => array(
                 'argb' => 'FF431a5d'
@@ -169,7 +172,7 @@ $objPHPExcel->setActiveSheetIndex(0)
             'fill' => array(
               'type' =>PHPExcel_Style_Fill::FILL_SOLID,
               'color'=>array(
-                    'argb' => 'FFd9b7f4')
+                    'argb' => 'FFFAFA')
             ),
              'borders' => array(
                'left' => array(
@@ -194,20 +197,31 @@ $objPHPExcel->setActiveSheetIndex(0)
         $objPHPExcel->setActiveSheetIndex(0);
         //inmovilizar paneles
         $objPHPExcel->getActiveSheet(0)->freezePaneByColumnAndRow(0,4);
+        //Protege el archivo y le da solo lectura
+        $objPHPExcel->getActiveSheet()->getProtection()->setSheet(true);
 
-        //Se manda el archivo al navegador web, con el nombre que se indica, en formato 2007
+    /*Linea que no funciona en servidor
+      // Se manda el archivo al navegador web, con el nombre que se indica, en formato 2007
+header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+header('Content-Disposition: attachment;filename="Reporte.xlsx"');
+header('Cache-Control: max-age=0');
+$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
+$objWriter->save('php://output');
 
-        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-        header('Content-Disposition: attachment;filename="ReporteGeneral.xlsx"');
-        header('Cache-Control: max-age=0');
-
-        $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
-        $objWriter->save('php://output');
-        exit;
-      }
-      else{
-        print_r('No hay resultados para mostrar');
-      }
+exit;*/
+//funciona en servidor
+// redirect output to a client’s web browser (Excel5)
+    $hoy = date("d-m-Y");
+    header('Content-Type: application/vnd.ms-excel');
+    header('Content-Disposition: attachment;filename="Reporte('.$hoy.').xls"');
+    header('Cache-Control: max-age=0');
+    $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');
+    $objWriter->save('php://output');
+    exit;
+}
+else{
+    print_r('No hay resultados para mostrar');
+}
 
 
 

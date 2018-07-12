@@ -22,6 +22,7 @@
 
 
       switch ($c) {
+
         case 'us':
           $carpeta = '../usuarios/';
           break;

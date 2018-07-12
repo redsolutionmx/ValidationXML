@@ -2,7 +2,7 @@
 
 include '../Conexion/conexion.php';
 
- ?>
+?>
  <!--Buscador en la tabla-->
  <div class="row">
    <div class="col s12">
@@ -21,10 +21,11 @@ include '../Conexion/conexion.php';
 
 <?php
 
-$proveedor = $_POST['fecha'];
-$registros = mysql_query("SELECT * FROM ticket WHERE fecha_log = '$proveedor' " ) or die ("Error en consulta ".mysql_error);
 
-
+$bday = $_POST["bday"];
+$bday2 = $_POST['bday2'];
+//print_r($bday2);
+$registros = mysql_query("SELECT * FROM ticket WHERE fecha_log >= '".$bday."' AND fecha_log <= '".$bday2."T23:59:00+00:00'") or die ("Error en consulta ".mysql_error);
 
 /*while ($registro = mysql_fetch_array($registros)) {
   echo $registro['proveedor']." ".$registro['num_factura']." ".$registro['estatus'];
